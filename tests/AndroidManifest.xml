@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="br.com.saulo.rumoaotaf.test">
+ <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35"/>
+ <application android:label="Rumo test"/>
+ <instrumentation android:name="br.com.saulo.rumoaotaf.test.BackupProbe" android:targetPackage="br.com.saulo.rumoaotaf" android:label="Backup tests"/>
+ <instrumentation android:name="br.com.saulo.rumoaotaf.test.ProfileProbe" android:targetPackage="br.com.saulo.rumoaotaf" android:label="Profile tests"/>
+ <instrumentation android:name="br.com.saulo.rumoaotaf.test.HistoryProbe" android:targetPackage="br.com.saulo.rumoaotaf" android:label="History tests"/>
+</manifest>

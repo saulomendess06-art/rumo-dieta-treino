@@ -1,0 +1,14 @@
+build/
+*.apk
+*.jks
+*.keystore
+local.properties
+*.log
+private/
+secrets/
+*.pem
+password.txt
+.env
+.env.*
+progress.md
+docs/implementation.md
