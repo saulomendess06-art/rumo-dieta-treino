@@ -12,7 +12,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('n
  await new Promise(r=>server.listen(0,'127.0.0.1',r));const browser=await chromium.launch({headless:true,executablePath:process.env.CHROME_PATH||undefined});
  try{const context=await browser.newContext(),page=await context.newPage();await page.goto('http://127.0.0.1:'+server.address().port+'/');await page.waitForFunction(()=>navigator.serviceWorker.controller);await page.reload();assert.match(await page.locator('footer').innerText(),/1\.2\.0/);
  old=false;await page.evaluate(async()=>{window.changed=false;navigator.serviceWorker.addEventListener('controllerchange',()=>window.changed=true);const r=await navigator.serviceWorker.getRegistration();await r.update();});await page.waitForFunction(()=>window.changed);
- const cached=await page.evaluate(async()=>{const c=await caches.open('rumo-web-1.3.1');return (await c.match(new URL('./index.html',location.href))).text();});assert.match(cached,/Rumo Web 1\.3\.1/);
- await page.reload();await page.getByRole('button',{name:/Começar meu plano/}).waitFor();assert.match(await page.locator('footer').innerText(),/1\.3\.1/);console.log('PASS atualização com cache HTTP antigo entrega HTML e módulos novos no reload.');
+ const cached=await page.evaluate(async()=>{const c=await caches.open('rumo-web-1.3.2');return (await c.match(new URL('./index.html',location.href))).text();});assert.match(cached,/Rumo Web 1\.3\.2/);
+ await page.reload();await page.getByRole('button',{name:/Começar meu plano/}).waitFor();assert.match(await page.locator('footer').innerText(),/1\.3\.2/);console.log('PASS atualização com cache HTTP antigo entrega HTML e módulos novos no reload.');
  }finally{await browser.close();await new Promise(r=>server.close(r));}
 })().catch(e=>{console.error(e);process.exitCode=1;});

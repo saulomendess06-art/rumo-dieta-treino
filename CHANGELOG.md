@@ -1,5 +1,11 @@
 # Atualizações
 
+## 1.3.2 Web — confirmação da versão instalada
+
+- Recursos offline são buscados com identificação de versão na URL e validados antes da ativação, incluindo o HTML esperado.
+- Verificação explícita da versão do service worker elimina a confusão entre troca de controlador e conclusão da atualização.
+- Android continua na versão 1.3.0.
+
 ## 1.3.1 Web — atualização do cache
 
 - A instalação do novo cache recarrega os arquivos pela rede, evitando copiar HTML e módulos antigos do cache HTTP do navegador.

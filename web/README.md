@@ -1,4 +1,4 @@
-# Rumo Web 1.3.1
+# Rumo Web 1.3.2
 
 Versão instalável (PWA) do Rumo para iPhone, iPad, Android e computador. Site público: https://rumo-dieta-treino.ruddybatch.chatgpt.site
 

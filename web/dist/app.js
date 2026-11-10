@@ -126,7 +126,7 @@ window.addEventListener('storage',e=>{if(e.key===KEY){showModal('Dados alterados
 async function setupOffline(){
  if(!('serviceWorker'in navigator)){ $('#offline-status').textContent='Uso offline indisponível neste navegador';return;}
  try{const reg=await navigator.serviceWorker.register('./sw.js');await navigator.serviceWorker.ready;
- const ready=async()=>{const cache=await caches.open('rumo-web-1.3.1');const found=await cache.match(new URL('./plan.json',location.href));$('#offline-status').textContent=found?'● Pronto para usar offline neste aparelho':'Conecte para concluir o preparo offline';};await ready();navigator.serviceWorker.addEventListener('controllerchange',ready);
+ const ready=async()=>{const cache=await caches.open('rumo-web-1.3.2');const found=await cache.match(new URL('./plan.json',location.href));$('#offline-status').textContent=found?'● Pronto para usar offline neste aparelho':'Conecte para concluir o preparo offline';};await ready();navigator.serviceWorker.addEventListener('controllerchange',ready);
  reg.addEventListener('updatefound',()=>{reg.installing?.addEventListener('statechange',()=>{if(reg.waiting&&navigator.serviceWorker.controller){notify('Atualização disponível. Feche todas as abas do Rumo e abra novamente.');}});});
  }catch{$('#offline-status').textContent='Uso online · não foi possível preparar o modo offline';}
 }

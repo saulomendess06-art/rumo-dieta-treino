@@ -15,3 +15,7 @@ O cache inclui todos os módulos novos e o motor anterior. O histórico conserva
 
 ## Correção web 1.3.1
 O teste de atualização real revelou que cache.addAll podia reutilizar arquivos HTTP antigos, mesmo sob um novo nome de cache. A falha foi reproduzida com a versão pública 1.2.0 e com um servidor de teste de cache longo. Agora a instalação usa Request com cache reload, só ativa após o preparo completo e aplica a versão nova no reload. A regressão passou com os arquivos completos da versão antiga e no teste autocontido tests/cache-update.cjs. O APK Android não foi alterado por esta correção.
+
+
+## Revisão web 1.3.2
+A preparação solicita os arquivos com identificador de versão na URL e valida o HTML antes de ativar. Se a publicação ainda estiver propagando, mantém o serviço anterior em vez de ativar um conjunto de arquivos antigos. A versão do controlador pode ser conferida por mensagem RUMO_VERSION. Regressão com cache longo e fixture completa 1.2.0 passou; a verificação de dados e uso offline segue o teste browser.cjs.

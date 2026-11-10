@@ -4,7 +4,7 @@ Aplicativo em português para organizar alimentação, atividade física e evolu
 
 ## Usar no iPhone ou pelo navegador
 
-**[Abrir o Rumo Web](https://rumo-dieta-treino.ruddybatch.chatgpt.site)** · [Novidades 1.3.1 Web](CHANGELOG.md) · [Código da versão web](web/)
+**[Abrir o Rumo Web](https://rumo-dieta-treino.ruddybatch.chatgpt.site)** · [Novidades 1.3.2 Web](CHANGELOG.md) · [Código da versão web](web/)
 
 No iPhone, abra no Safari → Compartilhar → Adicionar à Tela de Início → deixe Abrir como App da Web ativado se disponível → Adicionar. O próprio site mostra o passo a passo pelo botão **Instalar no celular**. Se a opção não aparecer, procure Editar Ações no menu Compartilhar.
 
