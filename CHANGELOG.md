@@ -1,5 +1,11 @@
 # Atualizações
 
+## 1.3.1 Web — atualização do cache
+
+- A instalação do novo cache recarrega os arquivos pela rede, evitando copiar HTML e módulos antigos do cache HTTP do navegador.
+- Troca de versão somente depois de preparar todos os arquivos; recarregar a página aplica a versão nova.
+- Regressão verificada partindo de um cache 1.2.0 com validade longa. Android permanece 1.3.0.
+
 ## 1.3.0 — Personalização e frequência semanal
 
 - Corrigida a seleção que devolvia sempre as primeiras receitas compatíveis. Objetivo e composição participam da escolha, com variedade nos sete dias.

@@ -11,3 +11,7 @@ O teste Android na versão anterior falhou em “objetivo muda selecao das recei
 - Revisão independente: um problema no select da web, corrigido com teste de regressão. Sem outros achados importantes reportados.
 
 O cache inclui todos os módulos novos e o motor anterior. O histórico conserva o motor de origem: o plano atualizado não reinterpreta a sessão já registrada. Não houve teste em iPhone físico/Safari; esse limite permanece.
+
+
+## Correção web 1.3.1
+O teste de atualização real revelou que cache.addAll podia reutilizar arquivos HTTP antigos, mesmo sob um novo nome de cache. A falha foi reproduzida com a versão pública 1.2.0 e com um servidor de teste de cache longo. Agora a instalação usa Request com cache reload, só ativa após o preparo completo e aplica a versão nova no reload. A regressão passou com os arquivos completos da versão antiga e no teste autocontido tests/cache-update.cjs. O APK Android não foi alterado por esta correção.
