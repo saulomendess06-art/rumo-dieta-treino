@@ -23,3 +23,10 @@ Você pode editar o cadastro e corrigir/excluir pesagens. Alterar o perfil prese
 ## Código público
 
 O repositório contém código, catálogo e perfis fictícios de teste. Ele não recebe nem publica automaticamente os cadastros feitos no aplicativo. Chaves e credenciais não integram o código público.
+
+
+## Versão web (1.2.0)
+
+O cadastro e o diário ficam no localStorage deste navegador e origem. Não são enviados ao servidor da hospedagem. O service worker armazena somente os arquivos públicos da interface e catálogo. A hospedagem recebe requisições de arquivos e pode registrar IP e metadados técnicos do acesso. Não há análise de uso, anúncios ou fontes remotas.
+
+O app instalado no iPhone pode ter armazenamento separado do Safari. Não há sincronização com o APK Android ou entre navegadores. Limpeza de dados, remoção do app, navegação privada e políticas de armazenamento podem provocar perda do diário. Exporte backups para um local privado; o arquivo inclui dados de saúde e não é criptografado. O formato de backup web é separado do Android. A restauração exige confirmação e substitui o estado local somente após validação.

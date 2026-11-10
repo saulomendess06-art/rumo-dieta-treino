@@ -1,6 +1,18 @@
 # Rumo · Dieta e treino
 
-Aplicativo Android em português para organizar alimentação, atividade física e evolução a partir de um cadastro local. Funciona offline, sem conta, anúncios, servidor ou API de inteligência artificial.
+Aplicativo em português para organizar alimentação, atividade física e evolução a partir de um cadastro local. Disponível em Android e agora também como site instalável no iPhone, iPad e outros navegadores. Sem conta, anúncios ou API de inteligência artificial.
+
+## Usar no iPhone ou pelo navegador
+
+**[Abrir o Rumo Web](https://rumo-dieta-treino.ruddybatch.chatgpt.site)** · [Novidades 1.2.0](CHANGELOG.md) · [Código da versão web](web/)
+
+No iPhone, abra no Safari → Compartilhar → Adicionar à Tela de Início → deixe Abrir como App da Web ativado se disponível → Adicionar. O próprio site mostra o passo a passo pelo botão **Instalar no celular**. Se a opção não aparecer, procure Editar Ações no menu Compartilhar.
+
+Instale antes de preencher seu cadastro. O app instalado pode ter dados separados do Safari; use o backup web para transferir seu diário. Os dados ficam neste navegador/aparelho, sem sincronização com o APK ou outros dispositivos. Aguarde o aviso **Pronto para usar offline** no primeiro acesso. Limpar os dados ou remover o app pode apagar o histórico: exporte backups privados.
+
+![Apresentação da versão web](docs/imagens/web-apresentacao.png)
+
+[Guia e desenvolvimento web](web/README.md) · [Verificações e limites de teste](web/VERIFICACAO.md)
 
 ## O que faz
 

@@ -1,0 +1,5497 @@
+{
+  "version": 1,
+  "foods": {
+    "rice": {
+      "name": "Arroz branco cozido",
+      "taco": 3,
+      "group": "cereal",
+      "values": [
+        128,
+        2.5,
+        28.1,
+        0.2,
+        1.6
+      ],
+      "meat": false,
+      "allergens": [],
+      "unitGrams": 25,
+      "unitLabel": "colher(es) de sopa"
+    },
+    "oats": {
+      "name": "Aveia em flocos, seca",
+      "taco": 7,
+      "group": "cereal",
+      "values": [
+        394,
+        13.9,
+        66.6,
+        8.5,
+        9.1
+      ],
+      "meat": false,
+      "allergens": [
+        "gluten"
+      ],
+      "unitGrams": 10,
+      "unitLabel": "colher(es) de sopa rasa(s)"
+    },
+    "bread": {
+      "name": "Pão de forma integral",
+      "taco": 52,
+      "group": "cereal",
+      "values": [
+        253,
+        9.4,
+        49.9,
+        3.7,
+        6.9
+      ],
+      "meat": false,
+      "allergens": [
+        "gluten"
+      ],
+      "unitGrams": 25,
+      "unitLabel": "fatia(s)"
+    },
+    "cuscuz": {
+      "name": "Cuscuz de milho cozido",
+      "taco": 533,
+      "group": "cereal",
+      "values": [
+        113,
+        2.2,
+        25.3,
+        0.7,
+        2.1
+      ],
+      "meat": false,
+      "allergens": [],
+      "unitGrams": 25,
+      "unitLabel": "colher(es) de sopa"
+    },
+    "manioc": {
+      "name": "Mandioca cozida",
+      "taco": 129,
+      "group": "cereal",
+      "values": [
+        125,
+        0.6,
+        30.1,
+        0.3,
+        1.6
+      ],
+      "meat": false,
+      "allergens": [],
+      "unitGrams": 50,
+      "unitLabel": "pedaço(s) médio(s)"
+    },
+    "banana": {
+      "name": "Banana-prata sem casca",
+      "taco": 182,
+      "group": "fruta",
+      "values": [
+        98,
+        1.3,
+        26,
+        0.1,
+        2
+      ],
+      "meat": false,
+      "allergens": [],
+      "unitGrams": 80,
+      "unitLabel": "banana(s) média(s)"
+    },
+    "apple": {
+      "name": "Maçã Fuji com casca, sem miolo",
+      "taco": 222,
+      "group": "fruta",
+      "values": [
+        56,
+        0.3,
+        15.2,
+        0,
+        1.3
+      ],
+      "meat": false,
+      "allergens": [],
+      "unitGrams": 150,
+      "unitLabel": "maçã(s) média(s)"
+    },
+    "papaya": {
+      "name": "Mamão Formosa sem casca/sementes",
+      "taco": 225,
+      "group": "fruta",
+      "values": [
+        45,
+        0.8,
+        11.6,
+        0.1,
+        1.8
+      ],
+      "meat": false,
+      "allergens": [],
+      "unitGrams": 150,
+      "unitLabel": "fatia(s) média(s)"
+    },
+    "orange": {
+      "name": "Laranja-pera sem casca",
+      "taco": 214,
+      "group": "fruta",
+      "values": [
+        37,
+        1,
+        8.9,
+        0.1,
+        0.8
+      ],
+      "meat": false,
+      "allergens": [],
+      "unitGrams": 130,
+      "unitLabel": "laranja(s) média(s)"
+    },
+    "lettuce": {
+      "name": "Alface crespa crua",
+      "taco": 78,
+      "group": "vegetal",
+      "values": [
+        11,
+        1.3,
+        1.7,
+        0.2,
+        1.8
+      ],
+      "meat": false,
+      "allergens": [],
+      "unitGrams": 25,
+      "unitLabel": "punhado(s)"
+    },
+    "tomato": {
+      "name": "Tomate cru",
+      "taco": 157,
+      "group": "vegetal",
+      "values": [
+        15,
+        1.1,
+        3.1,
+        0.2,
+        1.2
+      ],
+      "meat": false,
+      "allergens": [],
+      "unitGrams": 100,
+      "unitLabel": "tomate(s) pequeno(s)"
+    },
+    "carrot": {
+      "name": "Cenoura cozida",
+      "taco": 109,
+      "group": "vegetal",
+      "values": [
+        30,
+        0.8,
+        6.7,
+        0.2,
+        2.6
+      ],
+      "meat": false,
+      "allergens": [],
+      "unitGrams": 25,
+      "unitLabel": "colher(es) de sopa"
+    },
+    "oil": {
+      "name": "Azeite de oliva",
+      "taco": 260,
+      "group": "gordura",
+      "values": [
+        884,
+        0,
+        0,
+        100,
+        0
+      ],
+      "meat": false,
+      "allergens": [],
+      "unitGrams": 5,
+      "unitLabel": "colher(es) de chá"
+    },
+    "chicken": {
+      "name": "Peito de frango sem pele, grelhado",
+      "taco": 410,
+      "group": "proteina",
+      "values": [
+        159,
+        32,
+        0,
+        2.5,
+        0
+      ],
+      "meat": true,
+      "allergens": [],
+      "unitGrams": 100,
+      "unitLabel": "filé(s) médio(s)"
+    },
+    "beef": {
+      "name": "Patinho sem gordura, grelhado",
+      "taco": 377,
+      "group": "proteina",
+      "values": [
+        219,
+        35.9,
+        0,
+        7.3,
+        0
+      ],
+      "meat": true,
+      "allergens": [],
+      "unitGrams": 100,
+      "unitLabel": "bife(s) médio(s)"
+    },
+    "egg": {
+      "name": "Ovo cozido, sem casca",
+      "taco": 488,
+      "group": "proteina",
+      "values": [
+        146,
+        13.3,
+        0.6,
+        9.5,
+        0
+      ],
+      "meat": false,
+      "allergens": [
+        "egg"
+      ],
+      "unitGrams": 50,
+      "unitLabel": "ovo(s) médio(s)"
+    },
+    "yogurt": {
+      "name": "Iogurte natural integral sem açúcar",
+      "taco": 448,
+      "group": "lacteo",
+      "values": [
+        51,
+        4.1,
+        1.9,
+        3,
+        0
+      ],
+      "meat": false,
+      "allergens": [
+        "milk",
+        "lactose"
+      ],
+      "unitGrams": 170,
+      "unitLabel": "pote(s) de 170 g"
+    },
+    "ricotta": {
+      "name": "Ricota",
+      "taco": 469,
+      "group": "lacteo",
+      "values": [
+        140,
+        12.6,
+        3.8,
+        8.1,
+        0
+      ],
+      "meat": false,
+      "allergens": [
+        "milk",
+        "lactose"
+      ],
+      "unitGrams": 20,
+      "unitLabel": "colher(es) de sopa"
+    },
+    "beans": {
+      "name": "Feijão carioca cozido, com caldo",
+      "taco": 561,
+      "group": "leguminosa",
+      "values": [
+        76,
+        4.8,
+        13.6,
+        0.5,
+        8.5
+      ],
+      "meat": false,
+      "allergens": [],
+      "unitGrams": 80,
+      "unitLabel": "concha(s) pequena(s)"
+    },
+    "lentils": {
+      "name": "Lentilha cozida",
+      "taco": 577,
+      "group": "leguminosa",
+      "values": [
+        93,
+        6.3,
+        16.3,
+        0.5,
+        7.9
+      ],
+      "meat": false,
+      "allergens": [],
+      "unitGrams": 80,
+      "unitLabel": "concha(s) pequena(s)"
+    },
+    "tofu": {
+      "name": "Tofu",
+      "taco": 584,
+      "group": "proteina",
+      "values": [
+        64,
+        6.6,
+        2.1,
+        4,
+        0.8
+      ],
+      "meat": false,
+      "allergens": [
+        "soy"
+      ],
+      "unitGrams": 50,
+      "unitLabel": "fatia(s) média(s)"
+    },
+    "soymilk": {
+      "name": "Bebida de soja natural",
+      "taco": 582,
+      "group": "lacteo_vegetal",
+      "values": [
+        39,
+        2.4,
+        4.3,
+        1.6,
+        0.4
+      ],
+      "meat": false,
+      "allergens": [
+        "soy"
+      ],
+      "unitGrams": 200,
+      "unitLabel": "copo(s) de 200 ml"
+    }
+  },
+  "days": [
+    {
+      "name": "Segunda",
+      "meals": [
+        {
+          "label": "Café da manhã",
+          "time": "Ao acordar",
+          "options": [
+            {
+              "title": "Cuscuz, ovos e fruta",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 170,
+                  "portion": "1 xícara de chá, aproximadamente"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "banana",
+                  "g": 100,
+                  "portion": "1 banana grande ou 2 pequenas"
+                }
+              ],
+              "note": "Ovos cozidos. Café ou chá sem açúcar, se desejar."
+            },
+            {
+              "title": "Pão integral, ovos e mamão",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 75,
+                  "portion": "3 fatias de 25 g"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "papaya",
+                  "g": 220,
+                  "portion": "1 fatia grande"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Aveia com iogurte, ovo e maçã",
+              "items": [
+                {
+                  "food": "oats",
+                  "g": 55,
+                  "portion": "5 a 6 colheres de sopa rasas"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 250,
+                  "portion": "1 pote e mais cerca de 1/2 pote"
+                },
+                {
+                  "food": "egg",
+                  "g": 50,
+                  "portion": "1 ovo médio"
+                },
+                {
+                  "food": "apple",
+                  "g": 180,
+                  "portion": "1 maçã grande"
+                }
+              ],
+              "note": "Misture a aveia ao iogurte; coma o ovo à parte."
+            }
+          ]
+        },
+        {
+          "label": "Almoço",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, feijão e frango",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 200,
+                  "portion": "8 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 150,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "O azeite representa o total de gordura adicionada na sua porção; distribua entre preparo e salada."
+            },
+            {
+              "title": "Arroz, lentilha e patinho",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 180,
+                  "portion": "7 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "lentils",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "beef",
+                  "g": 130,
+                  "portion": "1 bife médio a grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use patinho sem gordura aparente. A porção de azeite é menor porque a carne já contém mais gordura."
+            },
+            {
+              "title": "Mandioca, feijão e frango",
+              "items": [
+                {
+                  "food": "manioc",
+                  "g": 200,
+                  "portion": "4 pedaços médios de 50 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 160,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Mandioca e feijão já cozidos. Não somar arroz a esta opção."
+            }
+          ]
+        },
+        {
+          "label": "Lanche",
+          "time": "Entre almoço e jantar",
+          "options": [
+            {
+              "title": "Iogurte, aveia e banana",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 200,
+                  "portion": "1 copo de 200 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 30,
+                  "portion": "3 colheres de sopa rasas"
+                },
+                {
+                  "food": "banana",
+                  "g": 80,
+                  "portion": "1 banana média"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Pão com ricota e laranja",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 50,
+                  "portion": "2 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 80,
+                  "portion": "4 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "orange",
+                  "g": 150,
+                  "portion": "1 laranja média a grande"
+                }
+              ],
+              "note": "Amasse a ricota com ervas e um pouco de água, se desejar."
+            },
+            {
+              "title": "Iogurte com maçã e aveia",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 25,
+                  "portion": "2 a 3 colheres de sopa rasas"
+                },
+                {
+                  "food": "apple",
+                  "g": 200,
+                  "portion": "1 maçã grande ou 2 pequenas"
+                }
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "label": "Jantar",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, lentilha e ovos",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 150,
+                  "portion": "6 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "lentils",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Sem carne. O azeite já está incluído no total estimado da refeição."
+            },
+            {
+              "title": "Cuscuz, feijão e ovos",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 180,
+                  "portion": "1 xícara de chá bem servida"
+                },
+                {
+                  "food": "beans",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Sanduíche de ricota e feijão à parte",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 100,
+                  "portion": "4 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 120,
+                  "portion": "6 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "beans",
+                  "g": 100,
+                  "portion": "1 concha média"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use o tomate e parte da alface nos sanduíches. O feijão é acompanhamento, não recheio obrigatório."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Terça",
+      "meals": [
+        {
+          "label": "Café da manhã",
+          "time": "Ao acordar",
+          "options": [
+            {
+              "title": "Cuscuz, ovos e fruta",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 170,
+                  "portion": "1 xícara de chá, aproximadamente"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "banana",
+                  "g": 100,
+                  "portion": "1 banana grande ou 2 pequenas"
+                }
+              ],
+              "note": "Ovos cozidos. Café ou chá sem açúcar, se desejar."
+            },
+            {
+              "title": "Pão integral, ovos e mamão",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 75,
+                  "portion": "3 fatias de 25 g"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "papaya",
+                  "g": 220,
+                  "portion": "1 fatia grande"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Aveia com iogurte, ovo e maçã",
+              "items": [
+                {
+                  "food": "oats",
+                  "g": 55,
+                  "portion": "5 a 6 colheres de sopa rasas"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 250,
+                  "portion": "1 pote e mais cerca de 1/2 pote"
+                },
+                {
+                  "food": "egg",
+                  "g": 50,
+                  "portion": "1 ovo médio"
+                },
+                {
+                  "food": "apple",
+                  "g": 180,
+                  "portion": "1 maçã grande"
+                }
+              ],
+              "note": "Misture a aveia ao iogurte; coma o ovo à parte."
+            }
+          ]
+        },
+        {
+          "label": "Almoço",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, feijão e frango",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 200,
+                  "portion": "8 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 150,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "O azeite representa o total de gordura adicionada na sua porção; distribua entre preparo e salada."
+            },
+            {
+              "title": "Arroz, lentilha e patinho",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 180,
+                  "portion": "7 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "lentils",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "beef",
+                  "g": 130,
+                  "portion": "1 bife médio a grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use patinho sem gordura aparente. A porção de azeite é menor porque a carne já contém mais gordura."
+            },
+            {
+              "title": "Mandioca, feijão e frango",
+              "items": [
+                {
+                  "food": "manioc",
+                  "g": 200,
+                  "portion": "4 pedaços médios de 50 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 160,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Mandioca e feijão já cozidos. Não somar arroz a esta opção."
+            }
+          ]
+        },
+        {
+          "label": "Lanche",
+          "time": "Entre almoço e jantar",
+          "options": [
+            {
+              "title": "Iogurte, aveia e banana",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 200,
+                  "portion": "1 copo de 200 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 30,
+                  "portion": "3 colheres de sopa rasas"
+                },
+                {
+                  "food": "banana",
+                  "g": 80,
+                  "portion": "1 banana média"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Pão com ricota e laranja",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 50,
+                  "portion": "2 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 80,
+                  "portion": "4 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "orange",
+                  "g": 150,
+                  "portion": "1 laranja média a grande"
+                }
+              ],
+              "note": "Amasse a ricota com ervas e um pouco de água, se desejar."
+            },
+            {
+              "title": "Iogurte com maçã e aveia",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 25,
+                  "portion": "2 a 3 colheres de sopa rasas"
+                },
+                {
+                  "food": "apple",
+                  "g": 200,
+                  "portion": "1 maçã grande ou 2 pequenas"
+                }
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "label": "Jantar",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, lentilha e ovos",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 150,
+                  "portion": "6 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "lentils",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Sem carne. O azeite já está incluído no total estimado da refeição."
+            },
+            {
+              "title": "Cuscuz, feijão e ovos",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 180,
+                  "portion": "1 xícara de chá bem servida"
+                },
+                {
+                  "food": "beans",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Sanduíche de ricota e feijão à parte",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 100,
+                  "portion": "4 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 120,
+                  "portion": "6 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "beans",
+                  "g": 100,
+                  "portion": "1 concha média"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use o tomate e parte da alface nos sanduíches. O feijão é acompanhamento, não recheio obrigatório."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quarta",
+      "meals": [
+        {
+          "label": "Café da manhã",
+          "time": "Ao acordar",
+          "options": [
+            {
+              "title": "Cuscuz, ovos e fruta",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 170,
+                  "portion": "1 xícara de chá, aproximadamente"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "banana",
+                  "g": 100,
+                  "portion": "1 banana grande ou 2 pequenas"
+                }
+              ],
+              "note": "Ovos cozidos. Café ou chá sem açúcar, se desejar."
+            },
+            {
+              "title": "Pão integral, ovos e mamão",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 75,
+                  "portion": "3 fatias de 25 g"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "papaya",
+                  "g": 220,
+                  "portion": "1 fatia grande"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Aveia com iogurte, ovo e maçã",
+              "items": [
+                {
+                  "food": "oats",
+                  "g": 55,
+                  "portion": "5 a 6 colheres de sopa rasas"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 250,
+                  "portion": "1 pote e mais cerca de 1/2 pote"
+                },
+                {
+                  "food": "egg",
+                  "g": 50,
+                  "portion": "1 ovo médio"
+                },
+                {
+                  "food": "apple",
+                  "g": 180,
+                  "portion": "1 maçã grande"
+                }
+              ],
+              "note": "Misture a aveia ao iogurte; coma o ovo à parte."
+            }
+          ]
+        },
+        {
+          "label": "Almoço",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, feijão e frango",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 200,
+                  "portion": "8 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 150,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "O azeite representa o total de gordura adicionada na sua porção; distribua entre preparo e salada."
+            },
+            {
+              "title": "Arroz, lentilha e patinho",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 180,
+                  "portion": "7 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "lentils",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "beef",
+                  "g": 130,
+                  "portion": "1 bife médio a grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use patinho sem gordura aparente. A porção de azeite é menor porque a carne já contém mais gordura."
+            },
+            {
+              "title": "Mandioca, feijão e frango",
+              "items": [
+                {
+                  "food": "manioc",
+                  "g": 200,
+                  "portion": "4 pedaços médios de 50 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 160,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Mandioca e feijão já cozidos. Não somar arroz a esta opção."
+            }
+          ]
+        },
+        {
+          "label": "Lanche",
+          "time": "Entre almoço e jantar",
+          "options": [
+            {
+              "title": "Iogurte, aveia e banana",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 200,
+                  "portion": "1 copo de 200 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 30,
+                  "portion": "3 colheres de sopa rasas"
+                },
+                {
+                  "food": "banana",
+                  "g": 80,
+                  "portion": "1 banana média"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Pão com ricota e laranja",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 50,
+                  "portion": "2 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 80,
+                  "portion": "4 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "orange",
+                  "g": 150,
+                  "portion": "1 laranja média a grande"
+                }
+              ],
+              "note": "Amasse a ricota com ervas e um pouco de água, se desejar."
+            },
+            {
+              "title": "Iogurte com maçã e aveia",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 25,
+                  "portion": "2 a 3 colheres de sopa rasas"
+                },
+                {
+                  "food": "apple",
+                  "g": 200,
+                  "portion": "1 maçã grande ou 2 pequenas"
+                }
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "label": "Jantar",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, lentilha e ovos",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 150,
+                  "portion": "6 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "lentils",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Sem carne. O azeite já está incluído no total estimado da refeição."
+            },
+            {
+              "title": "Cuscuz, feijão e ovos",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 180,
+                  "portion": "1 xícara de chá bem servida"
+                },
+                {
+                  "food": "beans",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Sanduíche de ricota e feijão à parte",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 100,
+                  "portion": "4 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 120,
+                  "portion": "6 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "beans",
+                  "g": 100,
+                  "portion": "1 concha média"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use o tomate e parte da alface nos sanduíches. O feijão é acompanhamento, não recheio obrigatório."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quinta",
+      "meals": [
+        {
+          "label": "Café da manhã",
+          "time": "Ao acordar",
+          "options": [
+            {
+              "title": "Cuscuz, ovos e fruta",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 170,
+                  "portion": "1 xícara de chá, aproximadamente"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "banana",
+                  "g": 100,
+                  "portion": "1 banana grande ou 2 pequenas"
+                }
+              ],
+              "note": "Ovos cozidos. Café ou chá sem açúcar, se desejar."
+            },
+            {
+              "title": "Pão integral, ovos e mamão",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 75,
+                  "portion": "3 fatias de 25 g"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "papaya",
+                  "g": 220,
+                  "portion": "1 fatia grande"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Aveia com iogurte, ovo e maçã",
+              "items": [
+                {
+                  "food": "oats",
+                  "g": 55,
+                  "portion": "5 a 6 colheres de sopa rasas"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 250,
+                  "portion": "1 pote e mais cerca de 1/2 pote"
+                },
+                {
+                  "food": "egg",
+                  "g": 50,
+                  "portion": "1 ovo médio"
+                },
+                {
+                  "food": "apple",
+                  "g": 180,
+                  "portion": "1 maçã grande"
+                }
+              ],
+              "note": "Misture a aveia ao iogurte; coma o ovo à parte."
+            }
+          ]
+        },
+        {
+          "label": "Almoço",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, feijão e frango",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 200,
+                  "portion": "8 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 150,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "O azeite representa o total de gordura adicionada na sua porção; distribua entre preparo e salada."
+            },
+            {
+              "title": "Arroz, lentilha e patinho",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 180,
+                  "portion": "7 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "lentils",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "beef",
+                  "g": 130,
+                  "portion": "1 bife médio a grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use patinho sem gordura aparente. A porção de azeite é menor porque a carne já contém mais gordura."
+            },
+            {
+              "title": "Mandioca, feijão e frango",
+              "items": [
+                {
+                  "food": "manioc",
+                  "g": 200,
+                  "portion": "4 pedaços médios de 50 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 160,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Mandioca e feijão já cozidos. Não somar arroz a esta opção."
+            }
+          ]
+        },
+        {
+          "label": "Lanche",
+          "time": "Entre almoço e jantar",
+          "options": [
+            {
+              "title": "Iogurte, aveia e banana",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 200,
+                  "portion": "1 copo de 200 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 30,
+                  "portion": "3 colheres de sopa rasas"
+                },
+                {
+                  "food": "banana",
+                  "g": 80,
+                  "portion": "1 banana média"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Pão com ricota e laranja",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 50,
+                  "portion": "2 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 80,
+                  "portion": "4 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "orange",
+                  "g": 150,
+                  "portion": "1 laranja média a grande"
+                }
+              ],
+              "note": "Amasse a ricota com ervas e um pouco de água, se desejar."
+            },
+            {
+              "title": "Iogurte com maçã e aveia",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 25,
+                  "portion": "2 a 3 colheres de sopa rasas"
+                },
+                {
+                  "food": "apple",
+                  "g": 200,
+                  "portion": "1 maçã grande ou 2 pequenas"
+                }
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "label": "Jantar",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, lentilha e ovos",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 150,
+                  "portion": "6 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "lentils",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Sem carne. O azeite já está incluído no total estimado da refeição."
+            },
+            {
+              "title": "Cuscuz, feijão e ovos",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 180,
+                  "portion": "1 xícara de chá bem servida"
+                },
+                {
+                  "food": "beans",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Sanduíche de ricota e feijão à parte",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 100,
+                  "portion": "4 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 120,
+                  "portion": "6 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "beans",
+                  "g": 100,
+                  "portion": "1 concha média"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use o tomate e parte da alface nos sanduíches. O feijão é acompanhamento, não recheio obrigatório."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sexta",
+      "meals": [
+        {
+          "label": "Café da manhã",
+          "time": "Ao acordar",
+          "options": [
+            {
+              "title": "Cuscuz, ovos e fruta",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 170,
+                  "portion": "1 xícara de chá, aproximadamente"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "banana",
+                  "g": 100,
+                  "portion": "1 banana grande ou 2 pequenas"
+                }
+              ],
+              "note": "Ovos cozidos. Café ou chá sem açúcar, se desejar."
+            },
+            {
+              "title": "Pão integral, ovos e mamão",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 75,
+                  "portion": "3 fatias de 25 g"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "papaya",
+                  "g": 220,
+                  "portion": "1 fatia grande"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Aveia com iogurte, ovo e maçã",
+              "items": [
+                {
+                  "food": "oats",
+                  "g": 55,
+                  "portion": "5 a 6 colheres de sopa rasas"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 250,
+                  "portion": "1 pote e mais cerca de 1/2 pote"
+                },
+                {
+                  "food": "egg",
+                  "g": 50,
+                  "portion": "1 ovo médio"
+                },
+                {
+                  "food": "apple",
+                  "g": 180,
+                  "portion": "1 maçã grande"
+                }
+              ],
+              "note": "Misture a aveia ao iogurte; coma o ovo à parte."
+            }
+          ]
+        },
+        {
+          "label": "Almoço",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, feijão e frango",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 200,
+                  "portion": "8 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 150,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "O azeite representa o total de gordura adicionada na sua porção; distribua entre preparo e salada."
+            },
+            {
+              "title": "Arroz, lentilha e patinho",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 180,
+                  "portion": "7 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "lentils",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "beef",
+                  "g": 130,
+                  "portion": "1 bife médio a grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use patinho sem gordura aparente. A porção de azeite é menor porque a carne já contém mais gordura."
+            },
+            {
+              "title": "Mandioca, feijão e frango",
+              "items": [
+                {
+                  "food": "manioc",
+                  "g": 200,
+                  "portion": "4 pedaços médios de 50 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 160,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Mandioca e feijão já cozidos. Não somar arroz a esta opção."
+            }
+          ]
+        },
+        {
+          "label": "Lanche",
+          "time": "Entre almoço e jantar",
+          "options": [
+            {
+              "title": "Iogurte, aveia e banana",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 200,
+                  "portion": "1 copo de 200 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 30,
+                  "portion": "3 colheres de sopa rasas"
+                },
+                {
+                  "food": "banana",
+                  "g": 80,
+                  "portion": "1 banana média"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Pão com ricota e laranja",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 50,
+                  "portion": "2 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 80,
+                  "portion": "4 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "orange",
+                  "g": 150,
+                  "portion": "1 laranja média a grande"
+                }
+              ],
+              "note": "Amasse a ricota com ervas e um pouco de água, se desejar."
+            },
+            {
+              "title": "Iogurte com maçã e aveia",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 25,
+                  "portion": "2 a 3 colheres de sopa rasas"
+                },
+                {
+                  "food": "apple",
+                  "g": 200,
+                  "portion": "1 maçã grande ou 2 pequenas"
+                }
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "label": "Jantar",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, lentilha e ovos",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 150,
+                  "portion": "6 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "lentils",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Sem carne. O azeite já está incluído no total estimado da refeição."
+            },
+            {
+              "title": "Cuscuz, feijão e ovos",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 180,
+                  "portion": "1 xícara de chá bem servida"
+                },
+                {
+                  "food": "beans",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Sanduíche de ricota e feijão à parte",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 100,
+                  "portion": "4 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 120,
+                  "portion": "6 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "beans",
+                  "g": 100,
+                  "portion": "1 concha média"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use o tomate e parte da alface nos sanduíches. O feijão é acompanhamento, não recheio obrigatório."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sábado",
+      "meals": [
+        {
+          "label": "Café da manhã",
+          "time": "Ao acordar",
+          "options": [
+            {
+              "title": "Cuscuz, ovos e fruta",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 170,
+                  "portion": "1 xícara de chá, aproximadamente"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "banana",
+                  "g": 100,
+                  "portion": "1 banana grande ou 2 pequenas"
+                }
+              ],
+              "note": "Ovos cozidos. Café ou chá sem açúcar, se desejar."
+            },
+            {
+              "title": "Pão integral, ovos e mamão",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 75,
+                  "portion": "3 fatias de 25 g"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "papaya",
+                  "g": 220,
+                  "portion": "1 fatia grande"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Aveia com iogurte, ovo e maçã",
+              "items": [
+                {
+                  "food": "oats",
+                  "g": 55,
+                  "portion": "5 a 6 colheres de sopa rasas"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 250,
+                  "portion": "1 pote e mais cerca de 1/2 pote"
+                },
+                {
+                  "food": "egg",
+                  "g": 50,
+                  "portion": "1 ovo médio"
+                },
+                {
+                  "food": "apple",
+                  "g": 180,
+                  "portion": "1 maçã grande"
+                }
+              ],
+              "note": "Misture a aveia ao iogurte; coma o ovo à parte."
+            }
+          ]
+        },
+        {
+          "label": "Almoço",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, feijão e frango",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 200,
+                  "portion": "8 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 150,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "O azeite representa o total de gordura adicionada na sua porção; distribua entre preparo e salada."
+            },
+            {
+              "title": "Arroz, lentilha e patinho",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 180,
+                  "portion": "7 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "lentils",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "beef",
+                  "g": 130,
+                  "portion": "1 bife médio a grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use patinho sem gordura aparente. A porção de azeite é menor porque a carne já contém mais gordura."
+            },
+            {
+              "title": "Mandioca, feijão e frango",
+              "items": [
+                {
+                  "food": "manioc",
+                  "g": 200,
+                  "portion": "4 pedaços médios de 50 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 160,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Mandioca e feijão já cozidos. Não somar arroz a esta opção."
+            }
+          ]
+        },
+        {
+          "label": "Lanche",
+          "time": "Entre almoço e jantar",
+          "options": [
+            {
+              "title": "Iogurte, aveia e banana",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 200,
+                  "portion": "1 copo de 200 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 30,
+                  "portion": "3 colheres de sopa rasas"
+                },
+                {
+                  "food": "banana",
+                  "g": 80,
+                  "portion": "1 banana média"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Pão com ricota e laranja",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 50,
+                  "portion": "2 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 80,
+                  "portion": "4 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "orange",
+                  "g": 150,
+                  "portion": "1 laranja média a grande"
+                }
+              ],
+              "note": "Amasse a ricota com ervas e um pouco de água, se desejar."
+            },
+            {
+              "title": "Iogurte com maçã e aveia",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 25,
+                  "portion": "2 a 3 colheres de sopa rasas"
+                },
+                {
+                  "food": "apple",
+                  "g": 200,
+                  "portion": "1 maçã grande ou 2 pequenas"
+                }
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "label": "Jantar",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, lentilha e ovos",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 150,
+                  "portion": "6 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "lentils",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Sem carne. O azeite já está incluído no total estimado da refeição."
+            },
+            {
+              "title": "Cuscuz, feijão e ovos",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 180,
+                  "portion": "1 xícara de chá bem servida"
+                },
+                {
+                  "food": "beans",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Sanduíche de ricota e feijão à parte",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 100,
+                  "portion": "4 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 120,
+                  "portion": "6 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "beans",
+                  "g": 100,
+                  "portion": "1 concha média"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use o tomate e parte da alface nos sanduíches. O feijão é acompanhamento, não recheio obrigatório."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Domingo",
+      "meals": [
+        {
+          "label": "Café da manhã",
+          "time": "Ao acordar",
+          "options": [
+            {
+              "title": "Cuscuz, ovos e fruta",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 170,
+                  "portion": "1 xícara de chá, aproximadamente"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "banana",
+                  "g": 100,
+                  "portion": "1 banana grande ou 2 pequenas"
+                }
+              ],
+              "note": "Ovos cozidos. Café ou chá sem açúcar, se desejar."
+            },
+            {
+              "title": "Pão integral, ovos e mamão",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 75,
+                  "portion": "3 fatias de 25 g"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "papaya",
+                  "g": 220,
+                  "portion": "1 fatia grande"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Aveia com iogurte, ovo e maçã",
+              "items": [
+                {
+                  "food": "oats",
+                  "g": 55,
+                  "portion": "5 a 6 colheres de sopa rasas"
+                },
+                {
+                  "food": "yogurt",
+                  "g": 250,
+                  "portion": "1 pote e mais cerca de 1/2 pote"
+                },
+                {
+                  "food": "egg",
+                  "g": 50,
+                  "portion": "1 ovo médio"
+                },
+                {
+                  "food": "apple",
+                  "g": 180,
+                  "portion": "1 maçã grande"
+                }
+              ],
+              "note": "Misture a aveia ao iogurte; coma o ovo à parte."
+            }
+          ]
+        },
+        {
+          "label": "Almoço",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, feijão e frango",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 200,
+                  "portion": "8 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 150,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "O azeite representa o total de gordura adicionada na sua porção; distribua entre preparo e salada."
+            },
+            {
+              "title": "Arroz, lentilha e patinho",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 180,
+                  "portion": "7 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "lentils",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "beef",
+                  "g": 130,
+                  "portion": "1 bife médio a grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use patinho sem gordura aparente. A porção de azeite é menor porque a carne já contém mais gordura."
+            },
+            {
+              "title": "Mandioca, feijão e frango",
+              "items": [
+                {
+                  "food": "manioc",
+                  "g": 200,
+                  "portion": "4 pedaços médios de 50 g"
+                },
+                {
+                  "food": "beans",
+                  "g": 160,
+                  "portion": "2 conchas pequenas de 80 g"
+                },
+                {
+                  "food": "chicken",
+                  "g": 160,
+                  "portion": "1 filé grande"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "carrot",
+                  "g": 100,
+                  "portion": "4 colheres de sopa"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Mandioca e feijão já cozidos. Não somar arroz a esta opção."
+            }
+          ]
+        },
+        {
+          "label": "Lanche",
+          "time": "Entre almoço e jantar",
+          "options": [
+            {
+              "title": "Iogurte, aveia e banana",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 200,
+                  "portion": "1 copo de 200 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 30,
+                  "portion": "3 colheres de sopa rasas"
+                },
+                {
+                  "food": "banana",
+                  "g": 80,
+                  "portion": "1 banana média"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Pão com ricota e laranja",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 50,
+                  "portion": "2 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 80,
+                  "portion": "4 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "orange",
+                  "g": 150,
+                  "portion": "1 laranja média a grande"
+                }
+              ],
+              "note": "Amasse a ricota com ervas e um pouco de água, se desejar."
+            },
+            {
+              "title": "Iogurte com maçã e aveia",
+              "items": [
+                {
+                  "food": "yogurt",
+                  "g": 170,
+                  "portion": "1 pote de 170 g"
+                },
+                {
+                  "food": "oats",
+                  "g": 25,
+                  "portion": "2 a 3 colheres de sopa rasas"
+                },
+                {
+                  "food": "apple",
+                  "g": 200,
+                  "portion": "1 maçã grande ou 2 pequenas"
+                }
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "label": "Jantar",
+          "time": "No seu horário habitual",
+          "options": [
+            {
+              "title": "Arroz, lentilha e ovos",
+              "items": [
+                {
+                  "food": "rice",
+                  "g": 150,
+                  "portion": "6 colheres de sopa de 25 g"
+                },
+                {
+                  "food": "lentils",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": "Sem carne. O azeite já está incluído no total estimado da refeição."
+            },
+            {
+              "title": "Cuscuz, feijão e ovos",
+              "items": [
+                {
+                  "food": "cuscuz",
+                  "g": 180,
+                  "portion": "1 xícara de chá bem servida"
+                },
+                {
+                  "food": "beans",
+                  "g": 150,
+                  "portion": "cerca de 2 conchas pequenas"
+                },
+                {
+                  "food": "egg",
+                  "g": 100,
+                  "portion": "2 ovos médios"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 10,
+                  "portion": "2 colheres de chá"
+                }
+              ],
+              "note": ""
+            },
+            {
+              "title": "Sanduíche de ricota e feijão à parte",
+              "items": [
+                {
+                  "food": "bread",
+                  "g": 100,
+                  "portion": "4 fatias de 25 g"
+                },
+                {
+                  "food": "ricotta",
+                  "g": 120,
+                  "portion": "6 colheres de sopa, aproximadamente"
+                },
+                {
+                  "food": "beans",
+                  "g": 100,
+                  "portion": "1 concha média"
+                },
+                {
+                  "food": "lettuce",
+                  "g": 50,
+                  "portion": "1 prato de sobremesa, sem apertar"
+                },
+                {
+                  "food": "tomato",
+                  "g": 150,
+                  "portion": "1 tomate médio a grande"
+                },
+                {
+                  "food": "oil",
+                  "g": 5,
+                  "portion": "1 colher de chá"
+                }
+              ],
+              "note": "Use o tomate e parte da alface nos sanduíches. O feijão é acompanhamento, não recheio obrigatório."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "workouts": [
+    [
+      {
+        "kind": "walk",
+        "title": "Caminhada de adaptação",
+        "minutes": 20,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Comece devagar",
+            "dose": "5 min",
+            "detail": "Caminhe em terreno plano, regular e sem mudanças rápidas de direção."
+          },
+          {
+            "name": "Caminhada confortável",
+            "dose": "10 min",
+            "detail": "Mantenha um ritmo em que consegue conversar. Se necessário, divida em blocos curtos."
+          },
+          {
+            "name": "Desacelere",
+            "dose": "5 min",
+            "detail": "Diminua o passo. Observe o joelho durante a atividade e no dia seguinte."
+          }
+        ]
+      },
+      {
+        "kind": "strength",
+        "title": "Força leve em casa",
+        "minutes": 20,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Aqueça com movimentos leves",
+            "dose": "4–5 min",
+            "detail": "Caminhe devagar pela casa, movimente ombros e tornozelos. Use apoio estável."
+          },
+          {
+            "name": "Flexão na parede",
+            "dose": "1 série(s) de 6 repetições",
+            "detail": "Mãos na parede na altura do peito. Dobre os cotovelos lentamente, mantendo o corpo alinhado. Aproxime os pés da parede para facilitar."
+          },
+          {
+            "name": "Retração das escápulas",
+            "dose": "1 série(s) de 8 repetições",
+            "detail": "Sentado, relaxe o pescoço e aproxime suavemente as escápulas por 2 segundos. Sem prender a respiração."
+          },
+          {
+            "name": "Contração abdominal sentada",
+            "dose": "1 série(s) de 5 × 5 segundos",
+            "detail": "Sentado em cadeira firme, ative suavemente o abdômen e continue respirando. Relaxe entre as repetições."
+          },
+          {
+            "name": "Sentar e levantar — opcional",
+            "dose": "1 série(s) de 5 repetições",
+            "detail": "Somente sem dor ou instabilidade: use cadeira alta e firme encostada na parede e apoio das mãos. Não agache fundo. Omita este exercício se o joelho incomodar."
+          },
+          {
+            "name": "Pausas e finalização",
+            "dose": "60–90 s entre séries; 3 min ao final",
+            "detail": "Descanse mais se precisar. Termine com movimentos leves, sem alongamento forçado. Não busque exaustão."
+          }
+        ]
+      },
+      {
+        "kind": "rest",
+        "title": "Descanso e recuperação",
+        "minutes": 0,
+        "effort": "Recuperação",
+        "steps": [
+          {
+            "name": "Recupere-se",
+            "dose": "Sem treino programado",
+            "detail": "Mantenha sua rotina normal, durma bem e observe se há dor, inchaço ou cansaço persistente. Não precisa compensar com outro treino."
+          }
+        ]
+      },
+      {
+        "kind": "walk",
+        "title": "Caminhada de adaptação",
+        "minutes": 20,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Comece devagar",
+            "dose": "5 min",
+            "detail": "Caminhe em terreno plano, regular e sem mudanças rápidas de direção."
+          },
+          {
+            "name": "Caminhada confortável",
+            "dose": "10 min",
+            "detail": "Mantenha um ritmo em que consegue conversar. Se necessário, divida em blocos curtos."
+          },
+          {
+            "name": "Desacelere",
+            "dose": "5 min",
+            "detail": "Diminua o passo. Observe o joelho durante a atividade e no dia seguinte."
+          }
+        ]
+      },
+      {
+        "kind": "strength",
+        "title": "Força leve em casa",
+        "minutes": 20,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Aqueça com movimentos leves",
+            "dose": "4–5 min",
+            "detail": "Caminhe devagar pela casa, movimente ombros e tornozelos. Use apoio estável."
+          },
+          {
+            "name": "Flexão na parede",
+            "dose": "1 série(s) de 6 repetições",
+            "detail": "Mãos na parede na altura do peito. Dobre os cotovelos lentamente, mantendo o corpo alinhado. Aproxime os pés da parede para facilitar."
+          },
+          {
+            "name": "Retração das escápulas",
+            "dose": "1 série(s) de 8 repetições",
+            "detail": "Sentado, relaxe o pescoço e aproxime suavemente as escápulas por 2 segundos. Sem prender a respiração."
+          },
+          {
+            "name": "Contração abdominal sentada",
+            "dose": "1 série(s) de 5 × 5 segundos",
+            "detail": "Sentado em cadeira firme, ative suavemente o abdômen e continue respirando. Relaxe entre as repetições."
+          },
+          {
+            "name": "Sentar e levantar — opcional",
+            "dose": "1 série(s) de 5 repetições",
+            "detail": "Somente sem dor ou instabilidade: use cadeira alta e firme encostada na parede e apoio das mãos. Não agache fundo. Omita este exercício se o joelho incomodar."
+          },
+          {
+            "name": "Pausas e finalização",
+            "dose": "60–90 s entre séries; 3 min ao final",
+            "detail": "Descanse mais se precisar. Termine com movimentos leves, sem alongamento forçado. Não busque exaustão."
+          }
+        ]
+      },
+      {
+        "kind": "swim",
+        "title": "Natação leve e técnica",
+        "minutes": 20,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Adapte-se à água",
+            "dose": "5 min",
+            "detail": "Piscina com supervisão no local. Entre com calma e faça movimentos confortáveis."
+          },
+          {
+            "name": "Nade leve com pausas",
+            "dose": "5–10 min no total",
+            "detail": "Faça trechos curtos no estilo confortável, descansando 30–60 s ou mais. Use o tempo para técnica; não há meta de distância nesta fase."
+          },
+          {
+            "name": "Cuide do joelho",
+            "dose": "Durante toda a sessão",
+            "detail": "Evite pernadas, impulsões e viradas que provoquem sintomas. Peça ao instrutor para adaptar o movimento. Sem apneia ou hiperventilação."
+          },
+          {
+            "name": "Termine com calma",
+            "dose": "3–5 min",
+            "detail": "Reduza o ritmo e saia com apoio. O tempo inclui as pausas. Nunca treine sozinho."
+          }
+        ]
+      },
+      {
+        "kind": "rest",
+        "title": "Descanso e recuperação",
+        "minutes": 0,
+        "effort": "Recuperação",
+        "steps": [
+          {
+            "name": "Recupere-se",
+            "dose": "Sem treino programado",
+            "detail": "Mantenha sua rotina normal, durma bem e observe se há dor, inchaço ou cansaço persistente. Não precisa compensar com outro treino."
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "kind": "walk",
+        "title": "Caminhada de adaptação",
+        "minutes": 23,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Comece devagar",
+            "dose": "5 min",
+            "detail": "Caminhe em terreno plano, regular e sem mudanças rápidas de direção."
+          },
+          {
+            "name": "Caminhada confortável",
+            "dose": "13 min",
+            "detail": "Mantenha um ritmo em que consegue conversar. Se necessário, divida em blocos curtos."
+          },
+          {
+            "name": "Desacelere",
+            "dose": "5 min",
+            "detail": "Diminua o passo. Observe o joelho durante a atividade e no dia seguinte."
+          }
+        ]
+      },
+      {
+        "kind": "strength",
+        "title": "Força leve em casa",
+        "minutes": 22,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Aqueça com movimentos leves",
+            "dose": "4–5 min",
+            "detail": "Caminhe devagar pela casa, movimente ombros e tornozelos. Use apoio estável."
+          },
+          {
+            "name": "Flexão na parede",
+            "dose": "1 série(s) de 8 repetições",
+            "detail": "Mãos na parede na altura do peito. Dobre os cotovelos lentamente, mantendo o corpo alinhado. Aproxime os pés da parede para facilitar."
+          },
+          {
+            "name": "Retração das escápulas",
+            "dose": "1 série(s) de 10 repetições",
+            "detail": "Sentado, relaxe o pescoço e aproxime suavemente as escápulas por 2 segundos. Sem prender a respiração."
+          },
+          {
+            "name": "Contração abdominal sentada",
+            "dose": "1 série(s) de 5 × 5 segundos",
+            "detail": "Sentado em cadeira firme, ative suavemente o abdômen e continue respirando. Relaxe entre as repetições."
+          },
+          {
+            "name": "Sentar e levantar — opcional",
+            "dose": "1 série(s) de 5 repetições",
+            "detail": "Somente sem dor ou instabilidade: use cadeira alta e firme encostada na parede e apoio das mãos. Não agache fundo. Omita este exercício se o joelho incomodar."
+          },
+          {
+            "name": "Pausas e finalização",
+            "dose": "60–90 s entre séries; 3 min ao final",
+            "detail": "Descanse mais se precisar. Termine com movimentos leves, sem alongamento forçado. Não busque exaustão."
+          }
+        ]
+      },
+      {
+        "kind": "rest",
+        "title": "Descanso e recuperação",
+        "minutes": 0,
+        "effort": "Recuperação",
+        "steps": [
+          {
+            "name": "Recupere-se",
+            "dose": "Sem treino programado",
+            "detail": "Mantenha sua rotina normal, durma bem e observe se há dor, inchaço ou cansaço persistente. Não precisa compensar com outro treino."
+          }
+        ]
+      },
+      {
+        "kind": "walk",
+        "title": "Caminhada de adaptação",
+        "minutes": 23,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Comece devagar",
+            "dose": "5 min",
+            "detail": "Caminhe em terreno plano, regular e sem mudanças rápidas de direção."
+          },
+          {
+            "name": "Caminhada confortável",
+            "dose": "13 min",
+            "detail": "Mantenha um ritmo em que consegue conversar. Se necessário, divida em blocos curtos."
+          },
+          {
+            "name": "Desacelere",
+            "dose": "5 min",
+            "detail": "Diminua o passo. Observe o joelho durante a atividade e no dia seguinte."
+          }
+        ]
+      },
+      {
+        "kind": "strength",
+        "title": "Força leve em casa",
+        "minutes": 22,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Aqueça com movimentos leves",
+            "dose": "4–5 min",
+            "detail": "Caminhe devagar pela casa, movimente ombros e tornozelos. Use apoio estável."
+          },
+          {
+            "name": "Flexão na parede",
+            "dose": "1 série(s) de 8 repetições",
+            "detail": "Mãos na parede na altura do peito. Dobre os cotovelos lentamente, mantendo o corpo alinhado. Aproxime os pés da parede para facilitar."
+          },
+          {
+            "name": "Retração das escápulas",
+            "dose": "1 série(s) de 10 repetições",
+            "detail": "Sentado, relaxe o pescoço e aproxime suavemente as escápulas por 2 segundos. Sem prender a respiração."
+          },
+          {
+            "name": "Contração abdominal sentada",
+            "dose": "1 série(s) de 5 × 5 segundos",
+            "detail": "Sentado em cadeira firme, ative suavemente o abdômen e continue respirando. Relaxe entre as repetições."
+          },
+          {
+            "name": "Sentar e levantar — opcional",
+            "dose": "1 série(s) de 5 repetições",
+            "detail": "Somente sem dor ou instabilidade: use cadeira alta e firme encostada na parede e apoio das mãos. Não agache fundo. Omita este exercício se o joelho incomodar."
+          },
+          {
+            "name": "Pausas e finalização",
+            "dose": "60–90 s entre séries; 3 min ao final",
+            "detail": "Descanse mais se precisar. Termine com movimentos leves, sem alongamento forçado. Não busque exaustão."
+          }
+        ]
+      },
+      {
+        "kind": "swim",
+        "title": "Natação leve e técnica",
+        "minutes": 22,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Adapte-se à água",
+            "dose": "5 min",
+            "detail": "Piscina com supervisão no local. Entre com calma e faça movimentos confortáveis."
+          },
+          {
+            "name": "Nade leve com pausas",
+            "dose": "7–12 min no total",
+            "detail": "Faça trechos curtos no estilo confortável, descansando 30–60 s ou mais. Use o tempo para técnica; não há meta de distância nesta fase."
+          },
+          {
+            "name": "Cuide do joelho",
+            "dose": "Durante toda a sessão",
+            "detail": "Evite pernadas, impulsões e viradas que provoquem sintomas. Peça ao instrutor para adaptar o movimento. Sem apneia ou hiperventilação."
+          },
+          {
+            "name": "Termine com calma",
+            "dose": "3–5 min",
+            "detail": "Reduza o ritmo e saia com apoio. O tempo inclui as pausas. Nunca treine sozinho."
+          }
+        ]
+      },
+      {
+        "kind": "rest",
+        "title": "Descanso e recuperação",
+        "minutes": 0,
+        "effort": "Recuperação",
+        "steps": [
+          {
+            "name": "Recupere-se",
+            "dose": "Sem treino programado",
+            "detail": "Mantenha sua rotina normal, durma bem e observe se há dor, inchaço ou cansaço persistente. Não precisa compensar com outro treino."
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "kind": "walk",
+        "title": "Caminhada de adaptação",
+        "minutes": 25,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Comece devagar",
+            "dose": "5 min",
+            "detail": "Caminhe em terreno plano, regular e sem mudanças rápidas de direção."
+          },
+          {
+            "name": "Caminhada confortável",
+            "dose": "15 min",
+            "detail": "Mantenha um ritmo em que consegue conversar. Se necessário, divida em blocos curtos."
+          },
+          {
+            "name": "Desacelere",
+            "dose": "5 min",
+            "detail": "Diminua o passo. Observe o joelho durante a atividade e no dia seguinte."
+          }
+        ]
+      },
+      {
+        "kind": "strength",
+        "title": "Força leve em casa",
+        "minutes": 25,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Aqueça com movimentos leves",
+            "dose": "4–5 min",
+            "detail": "Caminhe devagar pela casa, movimente ombros e tornozelos. Use apoio estável."
+          },
+          {
+            "name": "Flexão na parede",
+            "dose": "2 série(s) de 6 repetições",
+            "detail": "Mãos na parede na altura do peito. Dobre os cotovelos lentamente, mantendo o corpo alinhado. Aproxime os pés da parede para facilitar."
+          },
+          {
+            "name": "Retração das escápulas",
+            "dose": "2 série(s) de 8 repetições",
+            "detail": "Sentado, relaxe o pescoço e aproxime suavemente as escápulas por 2 segundos. Sem prender a respiração."
+          },
+          {
+            "name": "Contração abdominal sentada",
+            "dose": "2 série(s) de 5 × 5 segundos",
+            "detail": "Sentado em cadeira firme, ative suavemente o abdômen e continue respirando. Relaxe entre as repetições."
+          },
+          {
+            "name": "Sentar e levantar — opcional",
+            "dose": "2 série(s) de 5 repetições",
+            "detail": "Somente sem dor ou instabilidade: use cadeira alta e firme encostada na parede e apoio das mãos. Não agache fundo. Omita este exercício se o joelho incomodar."
+          },
+          {
+            "name": "Pausas e finalização",
+            "dose": "60–90 s entre séries; 3 min ao final",
+            "detail": "Descanse mais se precisar. Termine com movimentos leves, sem alongamento forçado. Não busque exaustão."
+          }
+        ]
+      },
+      {
+        "kind": "rest",
+        "title": "Descanso e recuperação",
+        "minutes": 0,
+        "effort": "Recuperação",
+        "steps": [
+          {
+            "name": "Recupere-se",
+            "dose": "Sem treino programado",
+            "detail": "Mantenha sua rotina normal, durma bem e observe se há dor, inchaço ou cansaço persistente. Não precisa compensar com outro treino."
+          }
+        ]
+      },
+      {
+        "kind": "walk",
+        "title": "Caminhada de adaptação",
+        "minutes": 25,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Comece devagar",
+            "dose": "5 min",
+            "detail": "Caminhe em terreno plano, regular e sem mudanças rápidas de direção."
+          },
+          {
+            "name": "Caminhada confortável",
+            "dose": "15 min",
+            "detail": "Mantenha um ritmo em que consegue conversar. Se necessário, divida em blocos curtos."
+          },
+          {
+            "name": "Desacelere",
+            "dose": "5 min",
+            "detail": "Diminua o passo. Observe o joelho durante a atividade e no dia seguinte."
+          }
+        ]
+      },
+      {
+        "kind": "strength",
+        "title": "Força leve em casa",
+        "minutes": 25,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Aqueça com movimentos leves",
+            "dose": "4–5 min",
+            "detail": "Caminhe devagar pela casa, movimente ombros e tornozelos. Use apoio estável."
+          },
+          {
+            "name": "Flexão na parede",
+            "dose": "2 série(s) de 6 repetições",
+            "detail": "Mãos na parede na altura do peito. Dobre os cotovelos lentamente, mantendo o corpo alinhado. Aproxime os pés da parede para facilitar."
+          },
+          {
+            "name": "Retração das escápulas",
+            "dose": "2 série(s) de 8 repetições",
+            "detail": "Sentado, relaxe o pescoço e aproxime suavemente as escápulas por 2 segundos. Sem prender a respiração."
+          },
+          {
+            "name": "Contração abdominal sentada",
+            "dose": "2 série(s) de 5 × 5 segundos",
+            "detail": "Sentado em cadeira firme, ative suavemente o abdômen e continue respirando. Relaxe entre as repetições."
+          },
+          {
+            "name": "Sentar e levantar — opcional",
+            "dose": "2 série(s) de 5 repetições",
+            "detail": "Somente sem dor ou instabilidade: use cadeira alta e firme encostada na parede e apoio das mãos. Não agache fundo. Omita este exercício se o joelho incomodar."
+          },
+          {
+            "name": "Pausas e finalização",
+            "dose": "60–90 s entre séries; 3 min ao final",
+            "detail": "Descanse mais se precisar. Termine com movimentos leves, sem alongamento forçado. Não busque exaustão."
+          }
+        ]
+      },
+      {
+        "kind": "swim",
+        "title": "Natação leve e técnica",
+        "minutes": 25,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Adapte-se à água",
+            "dose": "5 min",
+            "detail": "Piscina com supervisão no local. Entre com calma e faça movimentos confortáveis."
+          },
+          {
+            "name": "Nade leve com pausas",
+            "dose": "10–15 min no total",
+            "detail": "Faça trechos curtos no estilo confortável, descansando 30–60 s ou mais. Use o tempo para técnica; não há meta de distância nesta fase."
+          },
+          {
+            "name": "Cuide do joelho",
+            "dose": "Durante toda a sessão",
+            "detail": "Evite pernadas, impulsões e viradas que provoquem sintomas. Peça ao instrutor para adaptar o movimento. Sem apneia ou hiperventilação."
+          },
+          {
+            "name": "Termine com calma",
+            "dose": "3–5 min",
+            "detail": "Reduza o ritmo e saia com apoio. O tempo inclui as pausas. Nunca treine sozinho."
+          }
+        ]
+      },
+      {
+        "kind": "rest",
+        "title": "Descanso e recuperação",
+        "minutes": 0,
+        "effort": "Recuperação",
+        "steps": [
+          {
+            "name": "Recupere-se",
+            "dose": "Sem treino programado",
+            "detail": "Mantenha sua rotina normal, durma bem e observe se há dor, inchaço ou cansaço persistente. Não precisa compensar com outro treino."
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "kind": "walk",
+        "title": "Caminhada de adaptação",
+        "minutes": 28,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Comece devagar",
+            "dose": "5 min",
+            "detail": "Caminhe em terreno plano, regular e sem mudanças rápidas de direção."
+          },
+          {
+            "name": "Caminhada confortável",
+            "dose": "18 min",
+            "detail": "Mantenha um ritmo em que consegue conversar. Se necessário, divida em blocos curtos."
+          },
+          {
+            "name": "Desacelere",
+            "dose": "5 min",
+            "detail": "Diminua o passo. Observe o joelho durante a atividade e no dia seguinte."
+          }
+        ]
+      },
+      {
+        "kind": "strength",
+        "title": "Força leve em casa",
+        "minutes": 25,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Aqueça com movimentos leves",
+            "dose": "4–5 min",
+            "detail": "Caminhe devagar pela casa, movimente ombros e tornozelos. Use apoio estável."
+          },
+          {
+            "name": "Flexão na parede",
+            "dose": "2 série(s) de 8 repetições",
+            "detail": "Mãos na parede na altura do peito. Dobre os cotovelos lentamente, mantendo o corpo alinhado. Aproxime os pés da parede para facilitar."
+          },
+          {
+            "name": "Retração das escápulas",
+            "dose": "2 série(s) de 10 repetições",
+            "detail": "Sentado, relaxe o pescoço e aproxime suavemente as escápulas por 2 segundos. Sem prender a respiração."
+          },
+          {
+            "name": "Contração abdominal sentada",
+            "dose": "2 série(s) de 5 × 5 segundos",
+            "detail": "Sentado em cadeira firme, ative suavemente o abdômen e continue respirando. Relaxe entre as repetições."
+          },
+          {
+            "name": "Sentar e levantar — opcional",
+            "dose": "2 série(s) de 5 repetições",
+            "detail": "Somente sem dor ou instabilidade: use cadeira alta e firme encostada na parede e apoio das mãos. Não agache fundo. Omita este exercício se o joelho incomodar."
+          },
+          {
+            "name": "Pausas e finalização",
+            "dose": "60–90 s entre séries; 3 min ao final",
+            "detail": "Descanse mais se precisar. Termine com movimentos leves, sem alongamento forçado. Não busque exaustão."
+          }
+        ]
+      },
+      {
+        "kind": "rest",
+        "title": "Descanso e recuperação",
+        "minutes": 0,
+        "effort": "Recuperação",
+        "steps": [
+          {
+            "name": "Recupere-se",
+            "dose": "Sem treino programado",
+            "detail": "Mantenha sua rotina normal, durma bem e observe se há dor, inchaço ou cansaço persistente. Não precisa compensar com outro treino."
+          }
+        ]
+      },
+      {
+        "kind": "walk",
+        "title": "Caminhada de adaptação",
+        "minutes": 28,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Comece devagar",
+            "dose": "5 min",
+            "detail": "Caminhe em terreno plano, regular e sem mudanças rápidas de direção."
+          },
+          {
+            "name": "Caminhada confortável",
+            "dose": "18 min",
+            "detail": "Mantenha um ritmo em que consegue conversar. Se necessário, divida em blocos curtos."
+          },
+          {
+            "name": "Desacelere",
+            "dose": "5 min",
+            "detail": "Diminua o passo. Observe o joelho durante a atividade e no dia seguinte."
+          }
+        ]
+      },
+      {
+        "kind": "strength",
+        "title": "Força leve em casa",
+        "minutes": 25,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Aqueça com movimentos leves",
+            "dose": "4–5 min",
+            "detail": "Caminhe devagar pela casa, movimente ombros e tornozelos. Use apoio estável."
+          },
+          {
+            "name": "Flexão na parede",
+            "dose": "2 série(s) de 8 repetições",
+            "detail": "Mãos na parede na altura do peito. Dobre os cotovelos lentamente, mantendo o corpo alinhado. Aproxime os pés da parede para facilitar."
+          },
+          {
+            "name": "Retração das escápulas",
+            "dose": "2 série(s) de 10 repetições",
+            "detail": "Sentado, relaxe o pescoço e aproxime suavemente as escápulas por 2 segundos. Sem prender a respiração."
+          },
+          {
+            "name": "Contração abdominal sentada",
+            "dose": "2 série(s) de 5 × 5 segundos",
+            "detail": "Sentado em cadeira firme, ative suavemente o abdômen e continue respirando. Relaxe entre as repetições."
+          },
+          {
+            "name": "Sentar e levantar — opcional",
+            "dose": "2 série(s) de 5 repetições",
+            "detail": "Somente sem dor ou instabilidade: use cadeira alta e firme encostada na parede e apoio das mãos. Não agache fundo. Omita este exercício se o joelho incomodar."
+          },
+          {
+            "name": "Pausas e finalização",
+            "dose": "60–90 s entre séries; 3 min ao final",
+            "detail": "Descanse mais se precisar. Termine com movimentos leves, sem alongamento forçado. Não busque exaustão."
+          }
+        ]
+      },
+      {
+        "kind": "swim",
+        "title": "Natação leve e técnica",
+        "minutes": 25,
+        "effort": "Leve · 2–3 de 10",
+        "steps": [
+          {
+            "name": "Adapte-se à água",
+            "dose": "5 min",
+            "detail": "Piscina com supervisão no local. Entre com calma e faça movimentos confortáveis."
+          },
+          {
+            "name": "Nade leve com pausas",
+            "dose": "10–15 min no total",
+            "detail": "Faça trechos curtos no estilo confortável, descansando 30–60 s ou mais. Use o tempo para técnica; não há meta de distância nesta fase."
+          },
+          {
+            "name": "Cuide do joelho",
+            "dose": "Durante toda a sessão",
+            "detail": "Evite pernadas, impulsões e viradas que provoquem sintomas. Peça ao instrutor para adaptar o movimento. Sem apneia ou hiperventilação."
+          },
+          {
+            "name": "Termine com calma",
+            "dose": "3–5 min",
+            "detail": "Reduza o ritmo e saia com apoio. O tempo inclui as pausas. Nunca treine sozinho."
+          }
+        ]
+      },
+      {
+        "kind": "rest",
+        "title": "Descanso e recuperação",
+        "minutes": 0,
+        "effort": "Recuperação",
+        "steps": [
+          {
+            "name": "Recupere-se",
+            "dose": "Sem treino programado",
+            "detail": "Mantenha sua rotina normal, durma bem e observe se há dor, inchaço ou cansaço persistente. Não precisa compensar com outro treino."
+          }
+        ]
+      }
+    ]
+  ],
+  "nutritionNote": "Valores aproximados da TACO (NEPA/Unicamp, 4ª ed., 2011). Pesos de alimentos cozidos referem-se à parte pronta para comer; frutas e ovos sem casca. Medidas caseiras variam: os gramas são a referência. Marcas, preparo e óleo alteram os valores. As alternativas aproximam energia e proteína, mas não são nutricionalmente idênticas.",
+  "sources": [
+    {
+      "title": "TACO · NEPA/Unicamp, 4ª edição, 2011",
+      "url": "https://nepa.unicamp.br/publicacoes/tabela-taco-pdf/",
+      "detail": "Composição por 100 g. Cada alimento no cardápio tem seu número de identificação TACO. Valores de traços foram aproximados a zero."
+    },
+    {
+      "title": "Guia Alimentar · Ministério da Saúde",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed_atualizada.pdf",
+      "detail": "Base em alimentos in natura e minimamente processados, refeições e hábitos sustentáveis."
+    },
+    {
+      "title": "Atividade física · Ministério da Saúde",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-brasil/eu-quero-me-exercitar/documentos/pdf/guia_atividade_fisica_populacao_brasileira.pdf/@@download/file",
+      "detail": "Retorno gradual à atividade. O ciclo do aplicativo é uma proposta de adaptação; não é um protocolo oficial do TAF."
+    },
+    {
+      "title": "Retorno após lesão · Leeds Community Healthcare NHS",
+      "url": "https://leedscommunityhealthcare.nhs.uk/our-services-a-z/musculoskeletal-msk/return-to-activity-or-sport-after-injury/",
+      "detail": "Aumentar gradualmente conforme recuperação. Dor crescente, inchaço ou perda de função exigem interromper e procurar avaliação."
+    },
+    {
+      "title": "Alimentação e peso · NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/eating-physical-activity",
+      "detail": "Alimentação, regularidade e atividade para controle de peso; estimativas não garantem perda em prazo fixo."
+    },
+    {
+      "title": "CBMPE · exemplo de página da organizadora",
+      "url": "https://beta.institutoaocp.org.br/concursos/715",
+      "detail": "Conferir cargo, edital e retificações. O aplicativo não presume datas oficiais ou índices de aprovação."
+    },
+    {
+      "title": "Mifflin–St Jeor, 1990",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2305711/",
+      "detail": "Equação de estimativa de repouso em adultos. Fatores de atividade, arredondamento e limites são escolhas operacionais do aplicativo, sem validação clínica do produto."
+    },
+    {
+      "title": "Limites do planejamento de peso · NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/body-weight-planner",
+      "detail": "Planejamento de peso para adultos, excluindo gestação e amamentação. O aplicativo não oferece dieta clínica."
+    },
+    {
+      "title": "Começar atividade física · CDC",
+      "url": "https://www.cdc.gov/healthy-weight-growth/physical-activity/getting-started.html",
+      "detail": "Começar gradualmente, considerando condição atual e orientação profissional quando houver problemas de saúde."
+    }
+  ],
+  "recipes": [
+    [
+      {
+        "title": "Cuscuz, ovos e fruta",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 170,
+            "portion": "1 xícara de chá, aproximadamente"
+          },
+          {
+            "food": "egg",
+            "g": 100,
+            "portion": "2 ovos médios"
+          },
+          {
+            "food": "yogurt",
+            "g": 170,
+            "portion": "1 pote de 170 g"
+          },
+          {
+            "food": "banana",
+            "g": 100,
+            "portion": "1 banana grande ou 2 pequenas"
+          }
+        ],
+        "note": "Ovos cozidos. Café ou chá sem açúcar, se desejar."
+      },
+      {
+        "title": "Pão integral, ovos e mamão",
+        "items": [
+          {
+            "food": "bread",
+            "g": 75,
+            "portion": "3 fatias de 25 g"
+          },
+          {
+            "food": "egg",
+            "g": 100,
+            "portion": "2 ovos médios"
+          },
+          {
+            "food": "yogurt",
+            "g": 170,
+            "portion": "1 pote de 170 g"
+          },
+          {
+            "food": "papaya",
+            "g": 220,
+            "portion": "1 fatia grande"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Aveia com iogurte, ovo e maçã",
+        "items": [
+          {
+            "food": "oats",
+            "g": 55,
+            "portion": "5 a 6 colheres de sopa rasas"
+          },
+          {
+            "food": "yogurt",
+            "g": 250,
+            "portion": "1 pote e mais cerca de 1/2 pote"
+          },
+          {
+            "food": "egg",
+            "g": 50,
+            "portion": "1 ovo médio"
+          },
+          {
+            "food": "apple",
+            "g": 180,
+            "portion": "1 maçã grande"
+          }
+        ],
+        "note": "Misture a aveia ao iogurte; coma o ovo à parte."
+      },
+      {
+        "title": "Pão, tofu e banana",
+        "items": [
+          {
+            "food": "bread",
+            "g": 75,
+            "portion": ""
+          },
+          {
+            "food": "tofu",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "banana",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "oats",
+            "g": 20,
+            "portion": ""
+          }
+        ],
+        "note": "Tofu pode ser amassado com ervas. Aveia e fruta à parte."
+      },
+      {
+        "title": "Cuscuz com tofu e mamão",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "tofu",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "papaya",
+            "g": 150,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Arroz com tofu e laranja",
+        "items": [
+          {
+            "food": "rice",
+            "g": 140,
+            "portion": ""
+          },
+          {
+            "food": "tofu",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "orange",
+            "g": 180,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Mandioca com tofu e banana",
+        "items": [
+          {
+            "food": "manioc",
+            "g": 130,
+            "portion": ""
+          },
+          {
+            "food": "tofu",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "banana",
+            "g": 80,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Aveia, bebida de soja e banana",
+        "items": [
+          {
+            "food": "oats",
+            "g": 60,
+            "portion": ""
+          },
+          {
+            "food": "soymilk",
+            "g": 250,
+            "portion": ""
+          },
+          {
+            "food": "banana",
+            "g": 100,
+            "portion": ""
+          }
+        ],
+        "note": "Mingau sem açúcar adicionado. Confira o rótulo da bebida de soja."
+      },
+      {
+        "title": "Pão com pasta de lentilha e banana",
+        "items": [
+          {
+            "food": "bread",
+            "g": 80,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "banana",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": ""
+          }
+        ],
+        "note": "Amasse a lentilha já cozida, tempere com ervas e use no pão."
+      },
+      {
+        "title": "Cuscuz com feijão e mamão",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 160,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "papaya",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Arroz com lentilha e laranja",
+        "items": [
+          {
+            "food": "rice",
+            "g": 160,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "orange",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Mandioca, lentilha e banana",
+        "items": [
+          {
+            "food": "manioc",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "banana",
+            "g": 80,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Cuscuz, ovos e banana",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 190,
+            "portion": ""
+          },
+          {
+            "food": "egg",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "banana",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Arroz, ovos e mamão",
+        "items": [
+          {
+            "food": "rice",
+            "g": 170,
+            "portion": ""
+          },
+          {
+            "food": "egg",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "papaya",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Mandioca, ovos e laranja",
+        "items": [
+          {
+            "food": "manioc",
+            "g": 170,
+            "portion": ""
+          },
+          {
+            "food": "egg",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "orange",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      }
+    ],
+    [
+      {
+        "title": "Arroz, feijão e frango",
+        "items": [
+          {
+            "food": "rice",
+            "g": 200,
+            "portion": "8 colheres de sopa de 25 g"
+          },
+          {
+            "food": "beans",
+            "g": 160,
+            "portion": "2 conchas pequenas de 80 g"
+          },
+          {
+            "food": "chicken",
+            "g": 150,
+            "portion": "1 filé grande"
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": "1 prato de sobremesa, sem apertar"
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": "1 tomate médio a grande"
+          },
+          {
+            "food": "carrot",
+            "g": 100,
+            "portion": "4 colheres de sopa"
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": "2 colheres de chá"
+          }
+        ],
+        "note": "O azeite representa o total de gordura adicionada na sua porção; distribua entre preparo e salada."
+      },
+      {
+        "title": "Arroz, lentilha e patinho",
+        "items": [
+          {
+            "food": "rice",
+            "g": 180,
+            "portion": "7 colheres de sopa, aproximadamente"
+          },
+          {
+            "food": "lentils",
+            "g": 160,
+            "portion": "2 conchas pequenas de 80 g"
+          },
+          {
+            "food": "beef",
+            "g": 130,
+            "portion": "1 bife médio a grande"
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": "1 prato de sobremesa, sem apertar"
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": "1 tomate médio a grande"
+          },
+          {
+            "food": "carrot",
+            "g": 100,
+            "portion": "4 colheres de sopa"
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": "1 colher de chá"
+          }
+        ],
+        "note": "Use patinho sem gordura aparente. A porção de azeite é menor porque a carne já contém mais gordura."
+      },
+      {
+        "title": "Mandioca, feijão e frango",
+        "items": [
+          {
+            "food": "manioc",
+            "g": 200,
+            "portion": "4 pedaços médios de 50 g"
+          },
+          {
+            "food": "beans",
+            "g": 160,
+            "portion": "2 conchas pequenas de 80 g"
+          },
+          {
+            "food": "chicken",
+            "g": 160,
+            "portion": "1 filé grande"
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": "1 prato de sobremesa, sem apertar"
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": "1 tomate médio a grande"
+          },
+          {
+            "food": "carrot",
+            "g": 100,
+            "portion": "4 colheres de sopa"
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": "2 colheres de chá"
+          }
+        ],
+        "note": "Mandioca e feijão já cozidos. Não somar arroz a esta opção."
+      },
+      {
+        "title": "Arroz, lentilha e tofu",
+        "items": [
+          {
+            "food": "rice",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "tofu",
+            "g": 200,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Cuscuz, feijão e tofu",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "tofu",
+            "g": 200,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Mandioca, lentilha e tofu",
+        "items": [
+          {
+            "food": "manioc",
+            "g": 160,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "tofu",
+            "g": 200,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Arroz com duas leguminosas",
+        "items": [
+          {
+            "food": "rice",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 250,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Cuscuz com lentilha e feijão",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 250,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Mandioca, lentilha e feijão",
+        "items": [
+          {
+            "food": "manioc",
+            "g": 160,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 250,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Arroz, feijão e ovos",
+        "items": [
+          {
+            "food": "rice",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "egg",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Cuscuz, lentilha e ovos",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "egg",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Mandioca, feijão e ovos",
+        "items": [
+          {
+            "food": "manioc",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "egg",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      }
+    ],
+    [
+      {
+        "title": "Iogurte, aveia e banana",
+        "items": [
+          {
+            "food": "yogurt",
+            "g": 200,
+            "portion": "1 copo de 200 g"
+          },
+          {
+            "food": "oats",
+            "g": 30,
+            "portion": "3 colheres de sopa rasas"
+          },
+          {
+            "food": "banana",
+            "g": 80,
+            "portion": "1 banana média"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Pão com ricota e laranja",
+        "items": [
+          {
+            "food": "bread",
+            "g": 50,
+            "portion": "2 fatias de 25 g"
+          },
+          {
+            "food": "ricotta",
+            "g": 80,
+            "portion": "4 colheres de sopa, aproximadamente"
+          },
+          {
+            "food": "orange",
+            "g": 150,
+            "portion": "1 laranja média a grande"
+          }
+        ],
+        "note": "Amasse a ricota com ervas e um pouco de água, se desejar."
+      },
+      {
+        "title": "Iogurte com maçã e aveia",
+        "items": [
+          {
+            "food": "yogurt",
+            "g": 170,
+            "portion": "1 pote de 170 g"
+          },
+          {
+            "food": "oats",
+            "g": 25,
+            "portion": "2 a 3 colheres de sopa rasas"
+          },
+          {
+            "food": "apple",
+            "g": 200,
+            "portion": "1 maçã grande ou 2 pequenas"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Bebida de soja com banana e aveia",
+        "items": [
+          {
+            "food": "soymilk",
+            "g": 250,
+            "portion": ""
+          },
+          {
+            "food": "banana",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "oats",
+            "g": 25,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Pão com tofu e maçã",
+        "items": [
+          {
+            "food": "bread",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tofu",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "apple",
+            "g": 150,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Cuscuz com tofu e mamão",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "tofu",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "papaya",
+            "g": 150,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Mandioca com tofu e laranja",
+        "items": [
+          {
+            "food": "manioc",
+            "g": 90,
+            "portion": ""
+          },
+          {
+            "food": "tofu",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "orange",
+            "g": 150,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Pão com lentilha e banana",
+        "items": [
+          {
+            "food": "bread",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "banana",
+            "g": 80,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Cuscuz com lentilha e maçã",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "apple",
+            "g": 150,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Mandioca com feijão e mamão",
+        "items": [
+          {
+            "food": "manioc",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 130,
+            "portion": ""
+          },
+          {
+            "food": "papaya",
+            "g": 150,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Arroz com lentilha e laranja",
+        "items": [
+          {
+            "food": "rice",
+            "g": 90,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 110,
+            "portion": ""
+          },
+          {
+            "food": "orange",
+            "g": 150,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Ovo, banana e aveia",
+        "items": [
+          {
+            "food": "egg",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "banana",
+            "g": 100,
+            "portion": ""
+          },
+          {
+            "food": "oats",
+            "g": 30,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Cuscuz, ovo e mamão",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 110,
+            "portion": ""
+          },
+          {
+            "food": "egg",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "papaya",
+            "g": 180,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Mandioca, ovo e laranja",
+        "items": [
+          {
+            "food": "manioc",
+            "g": 110,
+            "portion": ""
+          },
+          {
+            "food": "egg",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "orange",
+            "g": 170,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      }
+    ],
+    [
+      {
+        "title": "Arroz, lentilha e ovos",
+        "items": [
+          {
+            "food": "rice",
+            "g": 150,
+            "portion": "6 colheres de sopa de 25 g"
+          },
+          {
+            "food": "lentils",
+            "g": 150,
+            "portion": "cerca de 2 conchas pequenas"
+          },
+          {
+            "food": "egg",
+            "g": 100,
+            "portion": "2 ovos médios"
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": "1 prato de sobremesa, sem apertar"
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": "1 tomate médio a grande"
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": "2 colheres de chá"
+          }
+        ],
+        "note": "Sem carne. O azeite já está incluído no total estimado da refeição."
+      },
+      {
+        "title": "Cuscuz, feijão e ovos",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 180,
+            "portion": "1 xícara de chá bem servida"
+          },
+          {
+            "food": "beans",
+            "g": 150,
+            "portion": "cerca de 2 conchas pequenas"
+          },
+          {
+            "food": "egg",
+            "g": 100,
+            "portion": "2 ovos médios"
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": "1 prato de sobremesa, sem apertar"
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": "1 tomate médio a grande"
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": "2 colheres de chá"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Sanduíche de ricota e feijão à parte",
+        "items": [
+          {
+            "food": "bread",
+            "g": 100,
+            "portion": "4 fatias de 25 g"
+          },
+          {
+            "food": "ricotta",
+            "g": 120,
+            "portion": "6 colheres de sopa, aproximadamente"
+          },
+          {
+            "food": "beans",
+            "g": 100,
+            "portion": "1 concha média"
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": "1 prato de sobremesa, sem apertar"
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": "1 tomate médio a grande"
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": "1 colher de chá"
+          }
+        ],
+        "note": "Use o tomate e parte da alface nos sanduíches. O feijão é acompanhamento, não recheio obrigatório."
+      },
+      {
+        "title": "Arroz, lentilha e tofu",
+        "items": [
+          {
+            "food": "rice",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "tofu",
+            "g": 200,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Cuscuz, feijão e tofu",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "tofu",
+            "g": 200,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Mandioca, lentilha e tofu",
+        "items": [
+          {
+            "food": "manioc",
+            "g": 160,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "tofu",
+            "g": 200,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Arroz com duas leguminosas",
+        "items": [
+          {
+            "food": "rice",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 250,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Cuscuz com lentilha e feijão",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 250,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Mandioca, lentilha e feijão",
+        "items": [
+          {
+            "food": "manioc",
+            "g": 160,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 250,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 10,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Arroz, feijão e ovos",
+        "items": [
+          {
+            "food": "rice",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "egg",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Cuscuz, lentilha e ovos",
+        "items": [
+          {
+            "food": "cuscuz",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "lentils",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "egg",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      },
+      {
+        "title": "Mandioca, feijão e ovos",
+        "items": [
+          {
+            "food": "manioc",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "beans",
+            "g": 180,
+            "portion": ""
+          },
+          {
+            "food": "egg",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "lettuce",
+            "g": 50,
+            "portion": ""
+          },
+          {
+            "food": "tomato",
+            "g": 150,
+            "portion": ""
+          },
+          {
+            "food": "oil",
+            "g": 5,
+            "portion": ""
+          }
+        ],
+        "note": ""
+      }
+    ]
+  ]
+}

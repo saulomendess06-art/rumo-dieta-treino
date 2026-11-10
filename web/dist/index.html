@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+ <meta name="theme-color" content="#164e40">
+ <meta name="description" content="Seu próximo passo para uma rotina mais leve. Organize refeições, treinos e evolução com o Rumo, no seu aparelho.">
+ <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="default">
+ <meta name="apple-mobile-web-app-title" content="Rumo">
+ <link rel="manifest" href="./manifest.webmanifest">
+ <link rel="icon" href="./icon.svg" type="image/svg+xml">
+ <link rel="apple-touch-icon" href="./icon-180.png">
+ <link rel="stylesheet" href="./style.css">
+ <title>Rumo · Dieta e treino</title>
+</head>
+<body>
+ <header class="topbar"><a class="brand" href="#" aria-label="Rumo início"><img src="./icon.svg" alt="" width="36" height="36"><span>rumo<span class="brand-dot">.</span></span></a><button class="install-link" data-action="install">Instalar no celular <span aria-hidden="true">↗</span></button></header>
+ <main id="app" tabindex="-1"><p class="loading">Preparando seu próximo passo…</p></main>
+ <nav id="nav" aria-label="Navegação principal" hidden></nav>
+ <footer id="footer"><span id="offline-status" role="status">Carregando recursos…</span><span>Rumo Web 1.2.0 · <a href="https://github.com/saulomendess06-art/rumo-dieta-treino" target="_blank" rel="noopener noreferrer">GitHub ↗</a></span></footer>
+ <div id="toast" role="status" aria-live="polite"></div>
+ <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+ <noscript>Ative JavaScript para usar o cadastro e o diário local do Rumo.</noscript>
+ <script type="module" src="./app.js"></script>
+</body></html>
