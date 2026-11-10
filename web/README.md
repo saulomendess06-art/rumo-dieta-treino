@@ -1,4 +1,4 @@
-# Rumo Web 1.2.0
+# Rumo Web 1.3.0
 
 Versão instalável (PWA) do Rumo para iPhone, iPad, Android e computador. Site público: https://rumo-dieta-treino.ruddybatch.chatgpt.site
 
@@ -14,7 +14,7 @@ O site contém esse guia antes do cadastro e pelo botão Instalar no celular. In
 ## Dados e offline
 Sem conta, sem sincronização, sem envio de cadastro/diário a servidor. O armazenamento é local neste navegador e origem. Limpeza de dados, modo privado, remoção do app ou pressão de armazenamento podem causar perda; mantenha backup privado. O backup não é criptografado e tem formato separado do Android. A hospedagem recebe os acessos normais aos arquivos e seus metadados técnicos.
 
-Aguarde Pronto para usar offline neste aparelho após o primeiro carregamento. O catálogo e a interface ficam em cache; o diário funciona sem conexão. Atualizações instalam em segundo plano: feche todas as abas/janelas do Rumo e abra novamente quando avisado. Os dados pessoais não entram no cache dos arquivos públicos.
+Aguarde Pronto para usar offline neste aparelho após o primeiro carregamento. O catálogo e a interface ficam em cache; o diário funciona sem conexão. Atualizações preparam todos os arquivos em segundo plano. Após o preparo, recarregue a página ou feche e abra o Rumo para usar a nova versão. Os dados pessoais não entram no cache dos arquivos públicos.
 
 ## Desenvolvimento
 Sem build e sem dependências para executar: sirva dist/ por HTTP (ex.: python -m http.server 4173 --directory dist) ou HTTPS. Service worker funciona em HTTPS ou localhost. Node 22+ para node --test tests/*.test.mjs.
@@ -27,3 +27,7 @@ Catálogo: dist/plan.json, cópia de assets/plan.json do Android. Motor determin
 - Apple: https://support.apple.com/pt-br/guide/iphone/iphea86e5236/ios
 - WebKit e armazenamento: https://webkit.org/tracking-prevention/
 - Política de armazenamento: https://webkit.org/blog/14403/updates-to-storage-policy/
+
+
+## Personalização
+Seleção de refeições por composição e objetivo, alternância semanal e frequência escolhida de 1 a 6 treinos. Veja a explicação das adaptações em Comer/Treinar. Atualize a frequência em Perfil → Editar → Seu movimento. Motores anteriores permanecem disponíveis para históricos, sem reinterpretar o treino salvo.

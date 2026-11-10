@@ -53,5 +53,6 @@ p['sources'].extend([
  {'title':'Limites do planejamento de peso · NIDDK','url':'https://www.niddk.nih.gov/health-information/weight-management/body-weight-planner','detail':'Planejamento de peso para adultos, excluindo gestação e amamentação. O aplicativo não oferece dieta clínica.'},
  {'title':'Começar atividade física · CDC','url':'https://www.cdc.gov/healthy-weight-growth/physical-activity/getting-started.html','detail':'Começar gradualmente, considerando condição atual e orientação profissional quando houver problemas de saúde.'}
 ])
+p['trainingMovements']=json.loads((root/'assets/training-movements.json').read_text(encoding='utf-8'))
 (root/'assets/plan.json').write_text(json.dumps(p,ensure_ascii=False,indent=2),encoding='utf-8')
 print('Catálogo público:',sum(map(len,recipes)),'preparações,',len(f),'alimentos TACO')

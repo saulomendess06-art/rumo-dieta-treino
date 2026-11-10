@@ -3,8 +3,14 @@ import android.content.*;import org.json.*;import java.time.LocalDate;import jav
 public class Store {
  public static final int MAX_BACKUP_BYTES=8*1024*1024;
  private final SharedPreferences preferences;private JSONObject data;private String committed;public boolean recovered=false;
- public Store(Context c){preferences=c.getSharedPreferences("rumo-local",Context.MODE_PRIVATE);String raw=preferences.getString("state",null);if(raw==null)data=fresh();else try{data=decode(raw);}catch(Exception e){preferences.edit().putString("recovery",raw).commit();data=fresh();recovered=true;}committed=data.toString();}
+ public Store(Context c){preferences=c.getSharedPreferences("rumo-local",Context.MODE_PRIVATE);String raw=preferences.getString("state",null);if(raw==null)data=fresh();else try{data=decode(raw);}catch(Exception e){preferences.edit().putString("recovery",raw).commit();data=fresh();recovered=true;}committed=data.toString();if(data.optBoolean("onboarded")&&data.optJSONObject("profile").optInt("planVersion",1)<2){try{commit(upgraded(data));}catch(Exception e){throw new IllegalStateException("Não foi possível atualizar o plano preservando o histórico.",e);}}}
  public static JSONObject fresh(){try{return new JSONObject().put("version",2).put("onboarded",false).put("legacy",false).put("profile",new JSONObject()).put("profiles",new JSONObject()).put("activeProfile","").put("archivedDays",new JSONObject()).put("week",0).put("start",LocalDate.now().toString()).put("days",new JSONObject()).put("weights",new JSONObject());}catch(JSONException e){throw new IllegalStateException(e);}}
+ private static JSONObject upgraded(JSONObject source)throws JSONException{
+  if(!source.optBoolean("onboarded")||source.getJSONObject("profile").optInt("planVersion",1)>=2)return source;
+  JSONObject x=new JSONObject(source.toString()),profiles=x.getJSONObject("profiles");for(Iterator<String> it=profiles.keys();it.hasNext();){JSONObject old=profiles.getJSONObject(it.next());if(!old.has("planVersion"))old.put("planVersion",1);}
+  JSONObject p=new JSONObject(source.getJSONObject("profile").toString());p.put("planVersion",2);if(!p.has("frequency"))p.put("frequency",5);String id="p"+System.currentTimeMillis()+"_"+profiles.length();profiles.put(id,p);x.put("profile",new JSONObject(p.toString())).put("activeProfile",id);
+  String today=LocalDate.now().toString();JSONObject current=x.getJSONObject("days").optJSONObject(today);if(current!=null){x.getJSONObject("archivedDays").put(today+"@"+current.getString("profileId"),new JSONObject(current.toString()));current.put("profileId",id).put("choices",new JSONArray("[0,0,0,0]")).put("meals",new JSONArray("[false,false,false,false]"));}return x;
+ }
  public static JSONObject emptyDay(){try{return new JSONObject("{water:0,choices:[0,0,0,0],meals:[false,false,false,false],done:false,effort:0,pain:false,note:'',trainingRecorded:false,profileId:'',trainingProfileId:'',week:0}");}catch(JSONException e){throw new IllegalStateException(e);}}
  public static boolean hasTraining(JSONObject d){return d.optBoolean("trainingRecorded")||d.optBoolean("done")||d.optInt("effort")>0||d.optBoolean("pain")||!d.optString("note").trim().isEmpty();}
  public JSONObject state(){return data;}
@@ -12,7 +18,7 @@ public class Store {
  public void saveDay(String date,JSONObject day){try{JSONObject next=new JSONObject(data.toString());next.getJSONObject("days").put(date,day);commit(next);}catch(JSONException e){throw new IllegalStateException(e);}}
  public void saveTraining(String date,boolean done,int effort,boolean pain,String note){try{JSONObject d=day(date);if(!hasTraining(d))d.put("trainingProfileId",d.getString("profileId")).put("week",data.getInt("week"));d.put("trainingRecorded",true).put("done",done).put("effort",effort).put("pain",pain).put("note",note);saveDay(date,d);}catch(JSONException e){throw new IllegalStateException(e);}}
  public void setProfile(JSONObject profile){try{
-  validateProfile(profile);JSONObject next=new JSONObject(data.toString());JSONObject profiles=next.getJSONObject("profiles");String id="p"+System.currentTimeMillis()+"_"+profiles.length();profiles.put(id,new JSONObject(profile.toString()));next.put("profile",new JSONObject(profile.toString())).put("activeProfile",id).put("onboarded",true);
+  profile=new JSONObject(profile.toString());profile.put("planVersion",2);if(!profile.has("frequency"))profile.put("frequency",5);validateProfile(profile);JSONObject next=new JSONObject(data.toString());JSONObject profiles=next.getJSONObject("profiles");String id="p"+System.currentTimeMillis()+"_"+profiles.length();profiles.put(id,new JSONObject(profile.toString()));next.put("profile",new JSONObject(profile.toString())).put("activeProfile",id).put("onboarded",true);
   String today=LocalDate.now().toString();JSONObject current=next.getJSONObject("days").optJSONObject(today);
   if(current!=null){String previous=current.optString("profileId");if(!previous.isEmpty())next.getJSONObject("archivedDays").put(today+"@"+previous,new JSONObject(current.toString()));current.put("profileId",id).put("choices",new JSONArray("[0,0,0,0]")).put("meals",new JSONArray("[false,false,false,false]"));}
   commit(next);
@@ -20,7 +26,7 @@ public class Store {
  private void commit(JSONObject candidate)throws JSONException{validate(candidate);String raw=encode(candidate);if(!preferences.edit().putString("state",raw).commit())throw new IllegalStateException("Não foi possível salvar os registros.");data=candidate;committed=raw;}
  public void save(){try{commit(data);}catch(Exception e){try{data=new JSONObject(committed);}catch(JSONException impossible){throw new IllegalStateException(impossible);}throw new IllegalStateException(e.getMessage());}}
  public String backup(){try{validate(data);return encode(data);}catch(JSONException e){throw new IllegalStateException(e);}}
- public void restore(String raw){try{commit(decode(raw));}catch(JSONException e){throw new IllegalArgumentException("Backup inválido: "+e.getMessage());}}
+ public void restore(String raw){try{commit(upgraded(decode(raw)));}catch(JSONException e){throw new IllegalArgumentException("Backup inválido: "+e.getMessage());}}
  private static String encode(JSONObject x)throws JSONException{String raw=x.toString();if(raw.getBytes(StandardCharsets.UTF_8).length>MAX_BACKUP_BYTES)throw new JSONException("Limite de 8 MB atingido. Reduza anotações antigas antes de salvar mais dados.");return raw;}
  public static JSONObject decode(String raw)throws JSONException{
   if(raw==null||raw.length()>MAX_BACKUP_BYTES||raw.getBytes(StandardCharsets.UTF_8).length>MAX_BACKUP_BYTES)throw new JSONException("Limite de backup: 8 MB.");
@@ -36,6 +42,7 @@ public class Store {
   for(Iterator<String> i=days.keys();i.hasNext();){JSONObject d=days.getJSONObject(i.next());d.put("trainingRecorded",hasTraining(d)).put("profileId","legacy").put("trainingProfileId","legacy").put("week",old.getInt("week"));}x.put("days",days);return x;
  }
  public static void validateProfile(JSONObject p)throws JSONException{
+  if(p.has("frequency"))integer(p.get("frequency"),1,6);if(p.has("planVersion"))integer(p.get("planVersion"),1,2);
   text(p.get("name"),50);integer(p.get("age"),18,100);number(p.get("height"),130,220);number(p.get("weight"),30,350);
   code(p,"sex","male","female","unspecified");code(p,"activity","low","light","moderate","high");code(p,"goal","lose","maintain","strength","taf");code(p,"experience","beginner","regular");code(p,"place","home","gym");code(p,"health","none","joint","clinical");code(p,"diet","common","vegetarian","vegan");text(p.get("healthNote"),2000);text(p.get("restrictionNote"),2000);bool(p.get("swim"));bool(p.get("meatLunch"));JSONArray a=p.getJSONArray("restrictions");if(a.length()>8)throw new JSONException("Restrições demais.");HashSet<String> seen=new HashSet<>();for(int i=0;i<a.length();i++){String s=a.getString(i);if(!Arrays.asList("gluten","lactose","milk","egg","soy","peanut","nuts","fish").contains(s)||!seen.add(s))throw new JSONException("Restrição inválida.");}
  }

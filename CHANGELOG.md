@@ -1,5 +1,14 @@
 # Atualizações
 
+## 1.3.0 — Personalização e frequência semanal
+
+- Corrigida a seleção que devolvia sempre as primeiras receitas compatíveis. Objetivo e composição participam da escolha, com variedade nos sete dias.
+- Frequência de 1 a 6 treinos escolhida no cadastro, com dias de descanso e natação no sábado quando selecionada.
+- Sessões variam por objetivo, experiência, atividade atual, local e começo conservador quando indicado.
+- Explicação das adaptações na alimentação e nos treinos.
+- Motores anteriores preservados para reconstruir os registros históricos sem alterar seus exercícios ou refeições.
+- Correção disponível no site e APK Android 1.3.0.
+
 ## 1.2.0 — Rumo Web para iPhone e outros navegadores
 
 - Site instalável (PWA) com apresentação e guia para adicionar à Tela de Início do iPhone.

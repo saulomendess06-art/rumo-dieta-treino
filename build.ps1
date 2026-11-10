@@ -34,8 +34,8 @@ try {
   Run "$JdkPath\bin\keytool.exe" @('-genkeypair','-keystore',$keystore,'-alias','rumo','-keyalg','RSA','-keysize','3072','-validity','10000','-dname','CN=Rumo ao TAF, OU=Personal, O=Local, C=BR','-storepass:env','RUMO_STORE_PASSWORD','-keypass:env','RUMO_STORE_PASSWORD','-storetype','PKCS12')
  }
  Run "$bt\zipalign.exe" @('-f','-p','4','build/unsigned.apk','build/aligned.apk')
- Run "$bt\apksigner.bat" @('sign','--ks',$keystore,'--ks-key-alias','rumo','--ks-pass','env:RUMO_STORE_PASSWORD','--out','build/Rumo-1.1.0.apk','build/aligned.apk')
- Run "$bt\apksigner.bat" @('verify','--verbose','build/Rumo-1.1.0.apk')
+ Run "$bt\apksigner.bat" @('sign','--ks',$keystore,'--ks-key-alias','rumo','--ks-pass','env:RUMO_STORE_PASSWORD','--out','build/Rumo-1.3.0.apk','build/aligned.apk')
+ Run "$bt\apksigner.bat" @('verify','--verbose','build/Rumo-1.3.0.apk')
  if($TestApk){
   New-Item -ItemType Directory -Force build/testclasses,build/testdex | Out-Null
   Run "$bt\aapt2.exe" @('link','-o','build/testresources.apk','-I',$android,'--manifest','tests/AndroidManifest.xml')
@@ -48,5 +48,5 @@ try {
   Run "$bt\zipalign.exe" @('-f','4','build/testunsigned.apk','build/testaligned.apk')
   Run "$bt\apksigner.bat" @('sign','--ks',$keystore,'--ks-key-alias','rumo','--ks-pass','env:RUMO_STORE_PASSWORD','--out','build/tests.apk','build/testaligned.apk')
  }
- Write-Output 'APK assinado: build/Rumo-1.1.0.apk'
+ Write-Output 'APK assinado: build/Rumo-1.3.0.apk'
 } finally {Remove-Item Env:RUMO_STORE_PASSWORD -ErrorAction SilentlyContinue; Pop-Location}

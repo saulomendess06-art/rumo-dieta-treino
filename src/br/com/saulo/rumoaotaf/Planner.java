@@ -2,7 +2,7 @@ package br.com.saulo.rumoaotaf;
 import java.util.*;
 public final class Planner {
  public static class Profile {
-  public int age;public double height,weight;public String sex="unspecified",activity="low",goal="maintain",health="none",diet="common",restrictionNote="",healthNote="",experience="beginner",place="home";
+  public int age,frequency=5;public double height,weight;public String sex="unspecified",activity="low",goal="maintain",health="none",diet="common",restrictionNote="",healthNote="",experience="beginner",place="home";
   public boolean swim=false,meatLunch=false;public Set<String> restrictions=new HashSet<>();
  }
  public static class Decision {public double bmr,tdee,target;public boolean dietAllowed,exerciseAllowed,lowImpact;public String dietReason="",exerciseReason="";}

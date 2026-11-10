@@ -5,9 +5,14 @@ export const dayIndex=date=>(new Date(date+'T12:00:00').getDay()+6)%7;
 export function fresh(){return {format:'rumo-web',version:1,activeProfile:null,profiles:{},week:0,days:{},archivedDays:[],weights:[]};}
 export function dayRecord(s,date){return s.days[date]??= {profileId:s.activeProfile,water:0,meals:Array.from({length:4},()=>({option:0,done:false})),training:null};}
 export function saveProfile(s,p,date=today()){
- validateProfile(p);const id='p'+Date.now().toString(36)+'_'+Math.random().toString(36).slice(2,8);
+ p={...p,frequency:p.frequency??5,planVersion:2};validateProfile(p);const id='p'+Date.now().toString(36)+'_'+Math.random().toString(36).slice(2,8);
  if(s.days[date]){s.archivedDays.push({date,record:structuredClone(s.days[date])});const r=s.days[date];r.profileId=id;r.meals=Array.from({length:4},()=>({option:0,done:false}));}
  s.profiles[id]=structuredClone(p);s.activeProfile=id;return id;
+}
+export function upgradePlans(s,date=today()){
+ if(!s.activeProfile||s.profiles[s.activeProfile].planVersion===2)return false;
+ for(const p of Object.values(s.profiles))if(p.planVersion===undefined)p.planVersion=1;
+ saveProfile(s,s.profiles[s.activeProfile],date);return true;
 }
 export function recordTraining(s,date,fields){const r=dayRecord(s,date);r.training={...fields,profileId:r.training?.profileId??r.profileId,week:r.training?.week??s.week};}
 export function persist(s,storage=localStorage){try{storage.setItem(KEY,JSON.stringify(s));}catch{throw Error('Não foi possível salvar neste navegador. Confira o espaço ou use uma janela normal. Exporte um backup para proteger os dados.');}}

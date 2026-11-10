@@ -4,7 +4,7 @@ Aplicativo em português para organizar alimentação, atividade física e evolu
 
 ## Usar no iPhone ou pelo navegador
 
-**[Abrir o Rumo Web](https://rumo-dieta-treino.ruddybatch.chatgpt.site)** · [Novidades 1.2.0](CHANGELOG.md) · [Código da versão web](web/)
+**[Abrir o Rumo Web](https://rumo-dieta-treino.ruddybatch.chatgpt.site)** · [Novidades 1.3.0](CHANGELOG.md) · [Código da versão web](web/)
 
 No iPhone, abra no Safari → Compartilhar → Adicionar à Tela de Início → deixe Abrir como App da Web ativado se disponível → Adicionar. O próprio site mostra o passo a passo pelo botão **Instalar no celular**. Se a opção não aparecer, procure Editar Ações no menu Compartilhar.
 
@@ -14,13 +14,19 @@ Instale antes de preencher seu cadastro. O app instalado pode ter dados separado
 
 [Guia e desenvolvimento web](web/README.md) · [Verificações e limites de teste](web/VERIFICACAO.md)
 
+## Personalização corrigida na versão 1.3.0
+
+O objetivo agora participa da seleção das receitas, além do cálculo das porções. O cardápio alterna preparações nos sete dias. Os treinos consideram frequência semanal escolhida, objetivo, atividade atual, experiência, local e necessidade de um começo conservador. As telas explicam as adaptações. Perfis parecidos podem compartilhar alimentos e exercícios; não se criam diferenças aleatórias ou por nome.
+
+Registros anteriores continuam associados ao motor que os gerou. A atualização cria uma revisão do plano atual, arquiva escolhas anteriores de hoje e preserva água, peso e treinos registrados.
+
 ## O que faz
 
 - Apresentação e cadastro de peso, altura, idade, sexo opcional, atividade, experiência, objetivo, local de treino, alimentação e saúde.
 - Sugestões para perder peso, manter condicionamento, ganhar força/massa ou começar a preparação para TAF.
 - Quatro refeições por dia, com uma principal e duas alternativas compatíveis quando o catálogo cobre as restrições. Porções em gramas, medidas caseiras e estimativas de nutrientes.
 - Filtros para vegetarianismo, veganismo, glúten, lactose e os alérgenos oferecidos no cadastro. Não certifica ausência de contaminação cruzada.
-- Ciclo inicial de quatro semanas, com cinco dias de atividade e descanso na quarta e no domingo. Modalidade, duração e exercícios consideram experiência, objetivo, local, histórico articular e acesso/domínio de natação. Avanço manual.
+- Ciclo inicial de quatro semanas, com frequência escolhida de 1 a 6 treinos por semana e descansos distribuídos. Modalidade, duração e exercícios consideram experiência, objetivo, local, histórico articular e acesso/domínio de natação. Avanço manual.
 - Peso, água, refeições e treino por data; histórico, edição de perfil, exportação e restauração de backup.
 - Atualização da versão 1.0.0 com revisão do cadastro e preservação dos registros. Sugestões atuais ficam separadas dos treinos já registrados.
 

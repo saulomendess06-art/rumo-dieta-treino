@@ -1,0 +1,46 @@
+{
+  "wall": [
+    "Flexão na parede",
+    "Mãos na altura do peito. Ajuste a distância para facilitar. Tronco alinhado; sem dor."
+  ],
+  "incline": [
+    "Flexão em apoio alto e firme",
+    "Bancada fixa e estável. Sem ir até a falha; use a parede se a técnica piorar."
+  ],
+  "row": [
+    "Retração das escápulas sentado",
+    "Aproxime suavemente as escápulas por 2 segundos, sem elevar ombros ou prender a respiração."
+  ],
+  "machineRow": [
+    "Remada na máquina",
+    "Peça ajuste ao instrutor. Carga leve e movimento controlado, sem balanço."
+  ],
+  "machinePress": [
+    "Supino na máquina",
+    "Peça ajuste ao instrutor. Comece leve e pare antes da exaustão; sem dor."
+  ],
+  "chair": [
+    "Sentar e levantar",
+    "Cadeira firme e alta encostada na parede. Apoie as mãos se necessário. Só faça sem dor ou instabilidade."
+  ],
+  "leg": [
+    "Leg press leve",
+    "Com orientação do instrutor, carga leve e amplitude confortável. Sem travar os joelhos. Pare com dor."
+  ],
+  "heel": [
+    "Elevação dos calcanhares com apoio",
+    "Segure um apoio fixo, suba e desça lentamente. Interrompa com desconforto ou desequilíbrio."
+  ],
+  "hinge": [
+    "Movimento de quadril sem carga",
+    "Em pé junto a apoio firme, leve levemente o quadril para trás sem curvar as costas. Amplitude pequena, sem dor."
+  ],
+  "core": [
+    "Ativação do abdômen sentado",
+    "Cadeira firme. Ative suavemente o abdômen enquanto respira; relaxe entre repetições."
+  ],
+  "wallCore": [
+    "Estabilidade do tronco na parede",
+    "Antebraços na parede e pés perto dela. Mantenha o tronco alinhado, sem prender a respiração."
+  ]
+}
